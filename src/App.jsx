@@ -2358,10 +2358,10 @@ return (
           Cocktails
         </button>
         <button
-          onClick={() => { setView('inventory'); setSelectedCocktail(null); }}
+          onClick={() => { setView('add-recipe'); setSelectedCocktail(null); }}
           style={{
             ...styles.navButton,
-            ...(view === 'inventory' ? styles.navButtonActive : {})
+            ...(view === 'add-recipe' ? styles.navButtonActive : {})
           }}
         >
           + Recipe
