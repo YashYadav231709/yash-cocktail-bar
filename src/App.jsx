@@ -1783,8 +1783,8 @@ useEffect(() => {
         setSearchTerm('');
         setCategoryFilter('all');
         setIsFading(false);
-      }, 1000); // 1 second fade duration
-    }, 3600000); // 1 minute inactivity
+      }, 1500); // 1 second fade duration
+    }, 60000); // 1 minute inactivity
   };
   
   const events = ['click', 'touchstart', 'scroll', 'keydown'];
