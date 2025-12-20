@@ -1317,7 +1317,195 @@ const MY_COCKTAILS = [
     { "name": "Lime Juice", "measure": "15 ml" }
   ],
   "isCustom": false
-}
+},
+{
+  "id": "custom-33",
+  "name": "Nautilus",
+  "category": "cocktail",
+  "image": "https://cdn.diffordsguide.com/cocktail/KO5P7r/default/0/512x.webp?v=1737701576",
+  "glass": "Cocktail glass",
+  "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
+  "ingredients": [
+    { "name": "Tequila", "measure": "60 ml" },
+    { "name": "Cranberry Juice", "measure": "60 ml" },
+    { "name": "Lime Juice", "measure": "30 ml" },
+    { "name": "Sugar Syrup", "measure": "15 ml" }
+  ],
+  "isCustom": false
+},
+{
+  "id": "custom-34",
+  "name": "Rude Cosmopolitan",
+  "category": "cocktail",
+  "image": "https://cdn.diffordsguide.com/cocktail/JRJWEA/default/0/512x.webp?v=1737701579",
+  "glass": "Martini glass",
+  "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
+  "ingredients": [
+    { "name": "Tequila", "measure": "37.5 ml" },
+    { "name": "Triple Sec", "measure": "22.5 ml" },
+    { "name": "Cranberry Juice", "measure": "30 ml" },
+    { "name": "Lime Juice", "measure": "15 ml" }
+  ],
+  "isCustom": false
+},
+{
+  "id": "custom-35",
+  "name": "Azalea Margarita",
+  "category": "cocktail",
+  "image": "https://cdn.diffordsguide.com/cocktail/rNeJoA/default/0/512x.webp?v=1737701614",
+  "glass": "Margarita glass",
+  "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
+  "ingredients": [
+    { "name": "Tequila", "measure": "45 ml" },
+    { "name": "Triple Sec", "measure": "15 ml" },
+    { "name": "Pineapple Juice", "measure": "30 ml" },
+    { "name": "Lime Juice", "measure": "15 ml" },
+    { "name": "Grenadine", "measure": "10 ml" }
+  ],
+  "isCustom": false
+},
+{
+  "id": "custom-36",
+  "name": "Fourth of July",
+  "category": "shot",
+  "image": "https://www.thespruceeats.com/thmb/tRjd7W5b5gEXsYjThyHCKIMZizE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/FourthofJuly-Shooter-e488b35be6a84953a18f1fd6cd9537cd.jpg",
+  "glass": "Shot glass",
+  "instructions": "Layer grenadine, then blue curaçao, then vodka carefully in a shot glass.",
+  "ingredients": [
+    { "name": "Grenadine", "measure": "10 ml" },
+    { "name": "Blue Curacao", "measure": "10 ml" },
+    { "name": "Vodka", "measure": "10 ml" }
+  ],
+  "isCustom": false
+},
+{
+  "id": "custom-37",
+  "name": "Fuzzy Jäger Cranberry",
+  "category": "shot",
+  "image": "https://www.thespruceeats.com/thmb/X64n_7povVNNuXwo_pJ07anb1MI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/red-headed-slut-759787-8-5b490435c9e77c0037b60f12.jpg",
+  "glass": "Shot glass",
+  "instructions": "Shake all ingredients with ice. Strain into shot glass.",
+  "ingredients": [
+    { "name": "Jägermeister", "measure": "15 ml" },
+    { "name": "Peach Schnapps", "measure": "15 ml" },
+    { "name": "Cranberry Juice", "measure": "15 ml" }
+  ],
+  "isCustom": false
+},
+{
+  "id": "custom-38",
+  "name": "Raspberry Gimlet",
+  "category": "shot",
+  "image": "https://www.thespruceeats.com/thmb/EHxthu9zaRDoqQqLwNtcYOwhPE0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/purple-hooter-recipes-761147-5-5b0dac4b119fa800374e4bd0.jpg",
+  "glass": "Shot glass",
+  "instructions": "Shake all ingredients with ice. Strain into shot glass.",
+  "ingredients": [
+    { "name": "Vodka", "measure": "20 ml" },
+    { "name": "Lime Juice", "measure": "10 ml" },
+    { "name": "Raspberry Liqueur", "measure": "15 ml" }
+  ],
+  "isCustom": false
+},
+{
+  "id": "custom-39",
+  "name": "Shirley Temple",
+  "category": "mocktail",
+  "image": "https://images.immediate.co.uk/production/volatile/sites/30/2023/01/Shirley-temple-1e55cf0.jpg?quality=90&webp=true&resize=700,636",
+  "glass": "Highball glass",
+  "instructions": "Fill glass with ice. Add ginger ale and grenadine. Stir gently. Garnish with a lime wedge and maraschino cherry.",
+  "ingredients": [
+    { "name": "Ginger Ale", "measure": "200 ml" },
+    { "name": "Grenadine", "measure": "30 ml" },
+    { "name": "Lime Juice", "measure": "15 ml" }
+  ],
+  "isCustom": false
+},
+{
+  "id": "custom-40",
+  "name": "Virgin Mojito",
+  "category": "mocktail",
+  "image": "https://images.immediate.co.uk/production/volatile/sites/30/2021/11/348171423-lyres_mojito_pitcher_rgb-e636d0a.jpg?quality=90&webp=true&resize=700,636",
+  "glass": "Highball glass",
+  "instructions": "Muddle mint leaves with sugar and lime juice. Add ice and top with soda water. Stir gently and garnish with mint.",
+  "ingredients": [
+    { "name": "Lime", "measure": "1" },
+    { "name": "Mint", "measure": "8-10 leaves" },
+    { "name": "Sugar", "measure": "2 tsp" },
+    { "name": "Soda Water", "measure": "150 ml" }
+  ],
+  "isCustom": false
+},
+{
+  "id": "custom-41",
+  "name": "Homemade Lemonade",
+  "category": "mocktail",
+  "image": "https://assets.bonappetit.com/photos/62aba9d5b433b325383e9ca9/1:1/w_2240,c_limit/0616-lemonade-recipe-lede.jpg",
+  "glass": "Highball glass",
+  "instructions": "Mix lemon juice with sugar syrup and cold water. Stir well. Serve over ice with lemon slices.",
+  "ingredients": [
+    { "name": "Lemon Juice", "measure": "60 ml" },
+    { "name": "Sugar Syrup", "measure": "30 ml" },
+    { "name": "Water", "measure": "150 ml" }
+  ],
+  "isCustom": false
+},
+{
+  "id": "custom-42",
+  "name": "Ginger Orange Warmer",
+  "category": "mocktail",
+  "image": "https://www.southernliving.com/thmb/mmyVvN80t0VvS4YqCbPM_Sh5kGE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gma_sl_1624-2000-9813deafe2fc4b818b0657fcef2c13d6.jpg",
+  "glass": "Mug",
+  "instructions": "Combine orange juice with grated ginger and honey. Heat gently or serve cold over ice.",
+  "ingredients": [
+    { "name": "Orange Juice", "measure": "150 ml" },
+    { "name": "Ginger", "measure": "1 inch grated" },
+    { "name": "Honey", "measure": "1 tsp" }
+  ],
+  "isCustom": false
+},
+{
+  "id": "custom-43",
+  "name": "Tropical Sunrise",
+  "category": "mocktail",
+  "image": "https://www.mightymrs.com/wp-content/uploads/tropical-pineapple-orange-tequilla-sunrise1.jpg",
+  "glass": "Highball glass",
+  "instructions": "Pour pineapple and orange juice over ice. Slowly add grenadine which will sink to the bottom. Stir gently for sunrise effect.",
+  "ingredients": [
+    { "name": "Pineapple Juice", "measure": "90 ml" },
+    { "name": "Orange Juice", "measure": "90 ml" },
+    { "name": "Grenadine", "measure": "15 ml" }
+  ],
+  "isCustom": false
+},
+{
+  "id": "custom-44",
+  "name": "Citrus Spritzer",
+  "category": "mocktail",
+  "image": "https://www.tiger-corporation.com/wp-content/uploads/2023/04/hero-img-recipe-non-alcoholic-citrus-spritzer-abf529a07dba2bc4fd4a8a1cd1466a72.jpg",
+  "glass": "Wine glass",
+  "instructions": "Combine juices over ice. Top with soda water. Garnish with orange and lemon slices.",
+  "ingredients": [
+    { "name": "Orange Juice", "measure": "60 ml" },
+    { "name": "Lemon Juice", "measure": "30 ml" },
+    { "name": "Sugar Syrup", "measure": "15 ml" },
+    { "name": "Soda Water", "measure": "100 ml" }
+  ],
+  "isCustom": false
+},
+{
+  "id": "custom-45",
+  "name": "Ginger Red-Headed Slut",
+  "category": "shot",
+  "image": "https://localbartendingschool.com/top/wp-content/uploads/2022/06/image11.jpg",
+  "glass": "Shot glass",
+  "instructions": "Shake all ingredients with ice. Strain into shot glass.",
+  "ingredients": [
+    { "name": "Peach Schnapps", "measure": "30 ml" },
+    { "name": "Jägermeister", "measure": "30 ml" },
+    { "name": "Cranberry Juice", "measure": "30 ml" }
+  ],
+  "isCustom": false
+},
 ];
 
 export default function CocktailBar() {
@@ -1411,6 +1599,7 @@ export default function CocktailBar() {
   const [almostCocktails, setAlmostCocktails] = useState([]);
   const [categoryFilter, setCategoryFilter] = useState('all');
   const [showHomepage, setShowHomepage] = useState(true);
+  const [isFading, setIsFading] = useState(false);
   
   // New recipe form state
   const [newRecipe, setNewRecipe] = useState({
@@ -1421,6 +1610,44 @@ export default function CocktailBar() {
     image: ''
   });
 
+  // Auto-return to homepage after inactivity
+// Auto-return to homepage after inactivity
+useEffect(() => {
+  if (showHomepage) return;
+  
+  let timeout;
+  
+  const resetTimer = () => {
+    clearTimeout(timeout);
+    setIsFading(false);
+    timeout = setTimeout(() => {
+      setIsFading(true);
+      // Wait for fade animation to complete, then show homepage
+      setTimeout(() => {
+        setShowHomepage(true);
+        setSelectedCocktail(null);
+        setSearchTerm('');
+        setCategoryFilter('all');
+        setIsFading(false);
+      }, 1000); // 1 second fade duration
+    }, 60000); // 1 minute inactivity
+  };
+  
+  const events = ['click', 'touchstart', 'scroll', 'keydown'];
+  
+  events.forEach(event => {
+    window.addEventListener(event, resetTimer);
+  });
+  
+  resetTimer();
+  
+  return () => {
+    clearTimeout(timeout);
+    events.forEach(event => {
+      window.removeEventListener(event, resetTimer);
+    });
+  };
+}, [showHomepage]);
   // Load data from persistent storage
   useEffect(() => {
     const loadData = async () => {
@@ -1621,6 +1848,7 @@ if (showHomepage) {
   }));
 
   return (
+    
     <div
       onClick={() => setShowHomepage(false)}
       style={{
@@ -1672,7 +1900,10 @@ if (showHomepage) {
             opacity: 0;
           }
         }
-        
+        @keyframes fadeOut {
+          from { opacity: 1; }
+          to { opacity: 0; }
+        }
         @keyframes twinkle {
           0%, 100% { opacity: 0.3; }
           50% { opacity: 1; }
@@ -1825,7 +2056,10 @@ if (showHomepage) {
 }
 
 return (
-    <div style={styles.container}>
+    <div style={{
+      ...styles.container,
+      animation: isFading ? 'fadeOut 1s ease forwards' : 'none',
+    }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
         
@@ -2298,7 +2532,6 @@ const styles = {
   },
   title: {
     fontSize: '3.5rem',
-    fontWeight: '300',
     letterSpacing: '0.1em',
     textTransform: 'uppercase',
     fontFamily: 'Domine',
