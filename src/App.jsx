@@ -2698,17 +2698,46 @@ return (
               />
             </div>
 
-            <div style={styles.formGroup}>
-              <label style={styles.label}>Image URL (optional)</label>
+            {/* Replace the URL input with this */}
+            <div style={{ marginBottom: '16px' }}>
+              <label style={styles.label}>Image</label>
               <input
-                type="text"
-                value={newRecipe.image}
-                onChange={(e) => setNewRecipe({ ...newRecipe, image: e.target.value })}
-                placeholder="https://..."
-                style={styles.input}
+                type="file"
+                accept="image/*"
+                capture="environment"
+                onChange={(e) => {
+                  const file = e.target.files[0];
+                  if (file) {
+                    const reader = new FileReader();
+                    reader.onloadend = () => {
+                      setNewRecipe({ ...newRecipe, image: reader.result });
+                    };
+                    reader.readAsDataURL(file);
+                  }
+                }}
+                style={{
+                  width: '100%',
+                  padding: '12px',
+                  background: '#2a2a2a',
+                  border: '1px solid #444',
+                  borderRadius: '8px',
+                  color: '#f5f0e8',
+                  fontFamily: "'Ubuntu', sans-serif",
+                }}
               />
+              {newRecipe.image && (
+                <img 
+                  src={newRecipe.image} 
+                  alt="Preview" 
+                  style={{ 
+                    marginTop: '12px', 
+                    maxWidth: '100%', 
+                    maxHeight: '200px', 
+                    borderRadius: '8px' 
+                  }} 
+                />
+              )}
             </div>
-
             <div style={styles.formGroup}>
               <label style={styles.label}>Ingredients *</label>
               {newRecipe.ingredients.map((ing, i) => (
