@@ -16,7 +16,7 @@ const MY_COCKTAILS = [
       { "name": "gin", "measure": "30 ml" },
       { "name": "tonic water", "measure": "120 ml" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "12560",
@@ -30,7 +30,7 @@ const MY_COCKTAILS = [
       { "name": "orange juice", "measure": "4 parts" },
       { "name": "pineapple juice", "measure": "4 parts" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11288",
@@ -44,7 +44,7 @@ const MY_COCKTAILS = [
       { "name": "lime", "measure": "Juice of 1/2" },
       { "name": "coca-cola", "measure": "" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "13206",
@@ -59,7 +59,7 @@ const MY_COCKTAILS = [
       { "name": "white rum", "measure": "60-90 ml" },
       { "name": "ice", "measure": "crushed" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "17196",
@@ -74,21 +74,7 @@ const MY_COCKTAILS = [
       { "name": "cointreau", "measure": "15 ml" },
       { "name": "cranberry juice", "measure": "60 ml" }
     ],
-    "isCustom": false
-  },
-  {
-    "id": "13328",
-    "name": "The Daqui-rye",
-    "category": "cocktail",
-    "image": "https://www.belvederevodka.com/static/44eb2eb2ceecff4e4e10ee5e864448c4/0df34/cocktail-the-zesty-one-daiqui-rye.webp",
-    "glass": "Tumbler",
-    "instructions": "Add all ingredients to cocktail shaker and shake over cubed ice. Fine strain into chilled coupette. Garnish with a lime zest.",
-    "ingredients": [
-      { "name": "Vodka", "measure": "50 ml" },
-      { "name": "Lime Juice", "measure": "20 ml" },
-      { "name": "Sugar Syrup", "measure": "10 ml" }
-    ],
-    "isCustom": false
+    
   },
   {
     "id": "17108",
@@ -101,7 +87,7 @@ const MY_COCKTAILS = [
       { "name": "coca-cola", "measure": "100 ml" },
       { "name": "lemon juice", "measure": "7 drops" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11006",
@@ -115,13 +101,13 @@ const MY_COCKTAILS = [
       { "name": "lime", "measure": "Juice of 1/2" },
       { "name": "sugar", "measure": "1 tsp" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11320",
     "name": "Dragonfly",
     "category": "cocktail",
-    "image": "https://www.thecocktaildb.com/images/media/drink/uc63bh1582483589.jpg",
+    "image": "https://www.puredrinkology.com/recipes/dragonfly/images/cover_hu5906374dc4cd6874e1f9d4947ea17e2a_277318_1000x0_resize_q75_box.jpeg",
     "glass": "Highball glass",
     "instructions": "In a highball glass almost filled with ice cubes, combine the gin and ginger ale. Stir well. Garnish with the lime wedge.",
     "ingredients": [
@@ -129,20 +115,7 @@ const MY_COCKTAILS = [
       { "name": "ginger ale", "measure": "120 ml" },
       { "name": "lime", "measure": "1" }
     ],
-    "isCustom": false
-  },
-  {
-    "id": "11368",
-    "name": "Flying Dutchman",
-    "category": "cocktail",
-    "image": "https://www.thecocktaildb.com/images/media/drink/mwko4q1582482903.jpg",
-    "glass": "Old-fashioned glass",
-    "instructions": "In an old-fashioned glass almost filled with ice cubes, combine the gin and Cointreau. Stir well.",
-    "ingredients": [
-      { "name": "gin", "measure": "60 ml" },
-      { "name": "Cointreau", "measure": "15 ml" }
-    ],
-    "isCustom": false
+    
   },
   {
     "id": "11390",
@@ -157,22 +130,22 @@ const MY_COCKTAILS = [
       { "name": "mint", "measure": "6" },
       { "name": "sugar", "measure": "1 tsp" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11391",
-    "name": "Frozen Pineapple Daiquiri",
+    "name": "Pineapple Daiquiri",
     "category": "cocktail",
-    "image": "https://www.thecocktaildb.com/images/media/drink/k3aecd1582481679.jpg",
+    "image": "https://cocktailicious.nl/wp-content/uploads/2021/09/Pineapple-Daiquiri.jpg",
     "glass": "Cocktail Glass",
     "instructions": "Combine all ingredients with 1 cup of crushed ice in an electric blender. Blend at a low speed for a short length of time. Pour into a cocktail glass and serve.",
     "ingredients": [
       { "name": "Bacardi", "measure": "45 ml" },
-      { "name": "pineapple", "measure": "4 chunks" },
+      { "name": "pineapple juice", "measure": "100 ml" },
       { "name": "lime juice", "measure": "1 tblsp" },
       { "name": "sugar", "measure": "1/2 tsp" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "17255",
@@ -187,7 +160,7 @@ const MY_COCKTAILS = [
       { "name": "sugar syrup", "measure": "15 ml" },
       { "name": "lime", "measure": "1" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11410",
@@ -202,7 +175,7 @@ const MY_COCKTAILS = [
       { "name": "sugar", "measure": "1 tsp" },
       { "name": "soda water", "measure": "" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11424",
@@ -215,7 +188,7 @@ const MY_COCKTAILS = [
       { "name": "Vodka", "measure": "45 ml" },
       { "name": "amaretto", "measure": "20 ml" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11423",
@@ -228,7 +201,7 @@ const MY_COCKTAILS = [
       { "name": "scotch", "measure": "45 ml" },
       { "name": "amaretto", "measure": "20 ml" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "178365",
@@ -243,22 +216,7 @@ const MY_COCKTAILS = [
       { "name": "lemon", "measure": "1 Slice" },
       { "name": "ice", "measure": "cubes" }
     ],
-    "isCustom": false
-  },
-  {
-    "id": "11420",
-    "name": "Gin Toddy",
-    "category": "cocktail",
-    "image": "https://www.thecocktaildb.com/images/media/drink/jxstwf1582582101.jpg",
-    "glass": "Old-fashioned glass",
-    "instructions": "Mix sugar and water in an old-fashioned glass. Add gin and one ice cube. Stir, add the twist of lemon peel, and serve.",
-    "ingredients": [
-      { "name": "gin", "measure": "60 ml" },
-      { "name": "water", "measure": "2 tsp" },
-      { "name": "sugar", "measure": "1/2 tsp" },
-      { "name": "lemon", "measure": "1 twist" }
-    ],
-    "isCustom": false
+    
   },
   {
     "id": "178366",
@@ -273,13 +231,13 @@ const MY_COCKTAILS = [
       { "name": "lemon", "measure": "1 Slice" },
       { "name": "ice", "measure": "cubes" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11415",
     "name": "Gin Sling",
     "category": "cocktail",
-    "image": "https://www.thecocktaildb.com/images/media/drink/8cl9sm1582581761.jpg",
+    "image": "https://www.puredrinkology.com/recipes/gin-sling/images/cover_hu6be86521245114021636d865d6ec1dd5_255027_1000x0_resize_q75_box.jpeg",
     "glass": "Old-fashioned glass",
     "instructions": "Dissolve sugar in mixture of water and juice of lemon. Add gin. Pour into an old-fashioned glass over ice cubes and stir. Add the twist of orange peel and serve.",
     "ingredients": [
@@ -289,7 +247,7 @@ const MY_COCKTAILS = [
       { "name": "water", "measure": "1 tsp" },
       { "name": "orange", "measure": "Twist of peel" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "17230",
@@ -305,23 +263,21 @@ const MY_COCKTAILS = [
       { "name": "soda water", "measure": "Top up" },
       { "name": "lime", "measure": "Garnish" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11407",
     "name": "Gin Cooler",
     "category": "cocktail",
-    "image": "https://www.thecocktaildb.com/images/media/drink/678xt11582481163.jpg",
+    "image": "https://i0.wp.com/www.imbored-letsgo.com/wp-content/uploads/2016/05/Gin-Cucumber-Cooler.jpg?ssl=1",
     "glass": "Collins glass",
     "instructions": "Stir sugar and soda water in a collins glass. Fill glass with ice and add gin. Fill with soda water and stir. Add the lemon peel and the orange spiral.",
     "ingredients": [
       { "name": "gin", "measure": "60 ml" },
-      { "name": "soda water", "measure": "" },
-      { "name": "sugar", "measure": "1 tsp" },
-      { "name": "orange", "measure": "spiral" },
-      { "name": "lemon", "measure": "peel" }
+      { "name": "soda water", "measure": "Top off" },
+      { "name": "sugar Syrup", "measure": "15 ml" },
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11433",
@@ -337,7 +293,7 @@ const MY_COCKTAILS = [
       { "name": "grenadine", "measure": "1/2 tsp" },
       { "name": "pineapple", "measure": "1 slice" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "178342",
@@ -351,7 +307,7 @@ const MY_COCKTAILS = [
       { "name": "soda water", "measure": "150 ml" },
       { "name": "lime", "measure": "1/4" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "178316",
@@ -365,7 +321,7 @@ const MY_COCKTAILS = [
       { "name": "honey", "measure": "20 ml" },
       { "name": "lemon juice", "measure": "20 ml" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11470",
@@ -379,7 +335,7 @@ const MY_COCKTAILS = [
       { "name": "pineapple juice", "measure": "30 ml" },
       { "name": "lemon juice", "measure": "1 tsp" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11472",
@@ -393,7 +349,7 @@ const MY_COCKTAILS = [
       { "name": "Cointreau", "measure": "15 ml" },
       { "name": "pineapple juice", "measure": "1 tblsp" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11524",
@@ -409,7 +365,7 @@ const MY_COCKTAILS = [
       { "name": "sugar", "measure": "1 tsp" },
       { "name": "soda water", "measure": "" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "16178",
@@ -427,7 +383,7 @@ const MY_COCKTAILS = [
       { "name": "sugar syrup", "measure": "3 dashes" },
       { "name": "soda water", "measure": "Top up" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11600",
@@ -441,7 +397,7 @@ const MY_COCKTAILS = [
       { "name": "Cointreau", "measure": "30 ml" },
       { "name": "lime juice", "measure": "30 ml" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "12720",
@@ -455,7 +411,7 @@ const MY_COCKTAILS = [
       { "name": "lemon", "measure": "1/4" },
       { "name": "water", "measure": "1 cup hot" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "12704",
@@ -469,7 +425,7 @@ const MY_COCKTAILS = [
       { "name": "sugar", "measure": "1 tblsp" },
       { "name": "soda water", "measure": "Top up" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "14366",
@@ -483,7 +439,7 @@ const MY_COCKTAILS = [
       { "name": "cointreau", "measure": "45 ml" },
       { "name": "lemon", "measure": "Juice of 1 wedge" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11002",
@@ -500,7 +456,7 @@ const MY_COCKTAILS = [
       { "name": "lemon", "measure": "Juice of 1/2" },
       { "name": "coca-cola", "measure": "1 splash" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "17204",
@@ -517,7 +473,7 @@ const MY_COCKTAILS = [
       { "name": "coca-cola", "measure": "1 dash" },
       { "name": "lemon", "measure": "Twist of peel" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11000",
@@ -533,7 +489,7 @@ const MY_COCKTAILS = [
       { "name": "mint", "measure": "2-4 sprigs" },
       { "name": "soda water", "measure": "" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11007",
@@ -548,7 +504,7 @@ const MY_COCKTAILS = [
       { "name": "lime juice", "measure": "30 ml" },
       { "name": "salt", "measure": "for rim" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "11009",
@@ -562,7 +518,7 @@ const MY_COCKTAILS = [
       { "name": "lime juice", "measure": "60 ml" },
       { "name": "ginger ale", "measure": "240 ml" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "178358",
@@ -579,7 +535,7 @@ const MY_COCKTAILS = [
       { "name": "ice", "measure": "cubes" },
       { "name": "soda water", "measure": "Top" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "12618",
@@ -594,7 +550,7 @@ const MY_COCKTAILS = [
       { "name": "sugar syrup", "measure": "20 ml" },
       { "name": "soda water", "measure": "" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "15330",
@@ -608,7 +564,7 @@ const MY_COCKTAILS = [
       { "name": "Cointreau", "measure": "30 ml" },
       { "name": "orange juice", "measure": "30 ml" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "15092",
@@ -623,7 +579,7 @@ const MY_COCKTAILS = [
       { "name": "pineapple juice", "measure": "1 part" },
       { "name": "ice", "measure": "" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "12718",
@@ -636,7 +592,7 @@ const MY_COCKTAILS = [
       { "name": "ginger", "measure": "1/4 inch" },
       { "name": "pineapple", "measure": "1/2" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "12097",
@@ -651,7 +607,7 @@ const MY_COCKTAILS = [
       { "name": "lemon", "measure": "1 twist of peel" },
       { "name": "water", "measure": "2 tsp" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "12071",
@@ -665,7 +621,7 @@ const MY_COCKTAILS = [
       { "name": "sprite", "measure": "120 ml" },
       { "name": "lemon", "measure": "1 wedge" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "17114",
@@ -679,7 +635,7 @@ const MY_COCKTAILS = [
       { "name": "cranberry juice", "measure": "150 ml" },
       { "name": "grenadine", "measure": "2 splashes" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "12630",
@@ -693,7 +649,7 @@ const MY_COCKTAILS = [
       { "name": "lemon juice", "measure": "" },
       { "name": "ginger ale", "measure": "" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "12091",
@@ -706,7 +662,7 @@ const MY_COCKTAILS = [
       { "name": "Bacardi", "measure": "45 ml" },
       { "name": "orange juice", "measure": "150 ml" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "12162",
@@ -719,7 +675,7 @@ const MY_COCKTAILS = [
       { "name": "Vodka", "measure": "45 ml" },
       { "name": "orange juice", "measure": "120 ml" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "178307",
@@ -732,7 +688,7 @@ const MY_COCKTAILS = [
       { "name": "tequila", "measure": "1 shot" },
       { "name": "7-up", "measure": "1 part" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "13621",
@@ -746,7 +702,7 @@ const MY_COCKTAILS = [
       { "name": "orange juice", "measure": "120 ml" },
       { "name": "grenadine", "measure": "15 ml" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "178363",
@@ -761,7 +717,7 @@ const MY_COCKTAILS = [
       { "name": "lemon", "measure": "1 Slice" },
       { "name": "ice", "measure": "cubes" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "178362",
@@ -775,7 +731,7 @@ const MY_COCKTAILS = [
       { "name": "lime juice", "measure": "15 ml" },
       { "name": "Vodka", "measure": "45 ml" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "178364",
@@ -789,7 +745,7 @@ const MY_COCKTAILS = [
       { "name": "tonic water", "measure": "100 ml" },
       { "name": "lemon", "measure": "1 Slice" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "12460",
@@ -802,7 +758,7 @@ const MY_COCKTAILS = [
       { "name": "Vodka", "measure": "60 ml" },
       { "name": "tonic water", "measure": "" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "17194",
@@ -816,7 +772,7 @@ const MY_COCKTAILS = [
       { "name": "Cointreau", "measure": "30 ml" },
       { "name": "lemon juice", "measure": "20 ml" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "12474",
@@ -830,7 +786,7 @@ const MY_COCKTAILS = [
       { "name": "gin", "measure": "20 ml" },
       { "name": "pineapple juice", "measure": "1 tblsp" }
     ],
-    "isCustom": false
+    
   },
   {
     "id": "14594",
@@ -845,7 +801,7 @@ const MY_COCKTAILS = [
       { "name": "ice", "measure": "cubes" },
       { "name": "lemon", "measure": "slices" }
     ],
-    "isCustom": false
+    
   },
   {
   "id": "custom-1",
@@ -859,7 +815,7 @@ const MY_COCKTAILS = [
     { "name": "Lemon Juice", "measure": "20 ml" },
     { "name": "Sugar Syrup", "measure": "10 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-2",
@@ -873,7 +829,7 @@ const MY_COCKTAILS = [
     { "name": "Bacardi Razz", "measure": "10 ml" },
     { "name": "Pineapple Juice", "measure": "45 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-3",
@@ -887,7 +843,7 @@ const MY_COCKTAILS = [
     { "name": "Lime Juice", "measure": "30 ml" },
     { "name": "Pineapple Juice", "measure": "90 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-4",
@@ -902,7 +858,7 @@ const MY_COCKTAILS = [
     { "name": "Cointreau", "measure": "15 ml" },
     { "name": "Passion Fruit Juice", "measure": "30 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-5",
@@ -916,7 +872,7 @@ const MY_COCKTAILS = [
     { "name": "Lime Juice", "measure": "30 ml" },
     { "name": "Cointreau", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-6",
@@ -929,7 +885,7 @@ const MY_COCKTAILS = [
     { "name": "Amaretto", "measure": "60 ml" },
     { "name": "Lemon Juice", "measure": "30 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-7",
@@ -942,7 +898,7 @@ const MY_COCKTAILS = [
     { "name": "Blue Curacao", "measure": "25 ml" },
     { "name": "Tequila", "measure": "25 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-8",
@@ -956,7 +912,7 @@ const MY_COCKTAILS = [
     { "name": "Bacardi", "measure": "15 ml" },
     { "name": "Cointreau", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-9",
@@ -971,7 +927,7 @@ const MY_COCKTAILS = [
     { "name": "Lime Juice", "measure": "15 ml" },
     { "name": "Sprite", "measure": "Top off" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-10",
@@ -986,7 +942,7 @@ const MY_COCKTAILS = [
     { "name": "Lime Juice", "measure": "30 ml" },
     { "name": "Spa Rood", "measure": "Top off" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-11",
@@ -1000,7 +956,7 @@ const MY_COCKTAILS = [
     { "name": "Vodka", "measure": "60 ml" },
     { "name": "Lime Juice", "measure": "20 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-12",
@@ -1015,7 +971,7 @@ const MY_COCKTAILS = [
     { "name": "Lime Juice", "measure": "30 ml" },
     { "name": "Sugar Syrup", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-13",
@@ -1031,7 +987,7 @@ const MY_COCKTAILS = [
     { "name": "Vodka", "measure": "45 ml" },
     { "name": "Sugar Syrup", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-14",
@@ -1047,7 +1003,7 @@ const MY_COCKTAILS = [
     { "name": "Lime Juice", "measure": "30 ml" },
     { "name": "Sugar Syrup", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-15",
@@ -1062,7 +1018,7 @@ const MY_COCKTAILS = [
     { "name": "Orange Juice", "measure": "15 ml" },
     { "name": "Grenadine Syrup", "measure": "10 ml" }
   ],
-  "isCustom": false
+  
   },
   {
   "id": "custom-16",
@@ -1076,7 +1032,7 @@ const MY_COCKTAILS = [
     { "name": "Lime Juice", "measure": "10 ml" },
     { "name": "Soda Water", "measure": "100 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-17",
@@ -1090,7 +1046,7 @@ const MY_COCKTAILS = [
     { "name": "Peach Schnapps", "measure": "30 ml" },
     { "name": "Orange Juice", "measure": "105 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-18",
@@ -1104,7 +1060,7 @@ const MY_COCKTAILS = [
     { "name": "Peach Schnapps", "measure": "20 ml" },
     { "name": "Orange Juice", "measure": "60 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-19",
@@ -1121,7 +1077,7 @@ const MY_COCKTAILS = [
     { "name": "Cranberry Juice", "measure": "30 ml" },
     { "name": "Bacardi Razz", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-20",
@@ -1136,7 +1092,7 @@ const MY_COCKTAILS = [
     { "name": "Cranberry Juice", "measure": "70 ml" },
     { "name": "Sugar Syrup", "measure": "10 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-21",
@@ -1156,7 +1112,7 @@ const MY_COCKTAILS = [
     { "name": "Sugar Syrup", "measure": "12.5 ml" },
     { "name": "Sprite", "measure": "40 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-22",
@@ -1172,7 +1128,7 @@ const MY_COCKTAILS = [
     { "name": "Lemon Juice", "measure": "7.5 ml" },
     { "name": "Water", "measure": "10 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-23",
@@ -1187,7 +1143,7 @@ const MY_COCKTAILS = [
     { "name": "Orange Juice", "measure": "30 ml" },
     { "name": "Orange Bitters", "measure": "2 dashes" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-24",
@@ -1205,7 +1161,7 @@ const MY_COCKTAILS = [
     { "name": "Lemon Juice", "measure": "10 ml" },
     { "name": "Sugar Syrup", "measure": "10 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-25",
@@ -1219,7 +1175,7 @@ const MY_COCKTAILS = [
     { "name": "Grenadine", "measure": "20 ml" },
     { "name": "Milk", "measure": "80 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-26",
@@ -1233,7 +1189,7 @@ const MY_COCKTAILS = [
     { "name": "Sugar Syrup", "measure": "10 ml" },
     { "name": "Lemon Juice", "measure": "25 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-27",
@@ -1246,7 +1202,7 @@ const MY_COCKTAILS = [
     { "name": "Licor 43", "measure": "50 ml" },
     { "name": "Passion Fruit Juice", "measure": "150 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-28",
@@ -1261,7 +1217,7 @@ const MY_COCKTAILS = [
     { "name": "Passoa", "measure": "20 ml" },
     { "name": "Lemon Juice", "measure": "20 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-29",
@@ -1275,7 +1231,7 @@ const MY_COCKTAILS = [
     { "name": "Soda Water", "measure": "100 ml" },
     { "name": "Lemon Juice", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-30",
@@ -1289,7 +1245,7 @@ const MY_COCKTAILS = [
     { "name": "Ginger Ale", "measure": "200 ml" },
     { "name": "Lime Juice", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-31",
@@ -1302,7 +1258,7 @@ const MY_COCKTAILS = [
     { "name": "Licor 43", "measure": "50 ml" },
     { "name": "Pineapple Juice", "measure": "150 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-32",
@@ -1316,7 +1272,7 @@ const MY_COCKTAILS = [
     { "name": "Tequila", "measure": "40 ml" },
     { "name": "Lime Juice", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-33",
@@ -1331,7 +1287,7 @@ const MY_COCKTAILS = [
     { "name": "Lime Juice", "measure": "30 ml" },
     { "name": "Sugar Syrup", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-34",
@@ -1346,7 +1302,7 @@ const MY_COCKTAILS = [
     { "name": "Cranberry Juice", "measure": "30 ml" },
     { "name": "Lime Juice", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-35",
@@ -1362,7 +1318,7 @@ const MY_COCKTAILS = [
     { "name": "Lime Juice", "measure": "15 ml" },
     { "name": "Grenadine", "measure": "10 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-36",
@@ -1376,7 +1332,7 @@ const MY_COCKTAILS = [
     { "name": "Blue Curacao", "measure": "10 ml" },
     { "name": "Vodka", "measure": "10 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-37",
@@ -1390,7 +1346,7 @@ const MY_COCKTAILS = [
     { "name": "Peach Schnapps", "measure": "15 ml" },
     { "name": "Cranberry Juice", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-38",
@@ -1404,7 +1360,7 @@ const MY_COCKTAILS = [
     { "name": "Lime Juice", "measure": "10 ml" },
     { "name": "Raspberry Liqueur", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-39",
@@ -1418,7 +1374,7 @@ const MY_COCKTAILS = [
     { "name": "Grenadine", "measure": "30 ml" },
     { "name": "Lime Juice", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-40",
@@ -1433,7 +1389,7 @@ const MY_COCKTAILS = [
     { "name": "Sugar", "measure": "2 tsp" },
     { "name": "Soda Water", "measure": "150 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-41",
@@ -1447,7 +1403,7 @@ const MY_COCKTAILS = [
     { "name": "Sugar Syrup", "measure": "30 ml" },
     { "name": "Water", "measure": "150 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-42",
@@ -1461,7 +1417,7 @@ const MY_COCKTAILS = [
     { "name": "Ginger", "measure": "1 inch grated" },
     { "name": "Honey", "measure": "1 tsp" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-43",
@@ -1475,7 +1431,7 @@ const MY_COCKTAILS = [
     { "name": "Orange Juice", "measure": "90 ml" },
     { "name": "Grenadine", "measure": "15 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-44",
@@ -1490,7 +1446,7 @@ const MY_COCKTAILS = [
     { "name": "Sugar Syrup", "measure": "15 ml" },
     { "name": "Soda Water", "measure": "100 ml" }
   ],
-  "isCustom": false
+  
 },
 {
   "id": "custom-45",
@@ -1504,7 +1460,202 @@ const MY_COCKTAILS = [
     { "name": "Jägermeister", "measure": "30 ml" },
     { "name": "Cranberry Juice", "measure": "30 ml" }
   ],
-  "isCustom": false
+  
+},
+{
+  "id": "custom-46",
+  "name": "Mango Margarita",
+  "category": "cocktail",
+  "image": "https://www.acouplecooks.com/wp-content/uploads/2020/12/Mango-Margarita-050.jpg",
+  "glass": "Margarita glass",
+  "instructions": "Add all ingredients to a shaker with ice. Shake well and strain into a chilled margarita glass. Garnish with a lime wheel or mango slice.",
+  "ingredients": [
+    { "name": "Tequila", "measure": "45 ml" },
+    { "name": "Mango Puree", "measure": "60 ml" },
+    { "name": "Lime Juice", "measure": "20 ml" },
+    { "name": "Cointreau", "measure": "15 ml" },
+    { "name": "Sugar Syrup", "measure": "10 ml" }
+  ],
+  
+},
+{
+  "id": "custom-47",
+  "name": "Mango Daiquiri",
+  "category": "cocktail",
+  "image": "https://www.recipetineats.com/tachyon/2017/01/Mango-Daiquiris-3.jpg",
+  "glass": "Cocktail glass",
+  "instructions": "Add all ingredients to a shaker with ice. Shake vigorously and strain into a chilled cocktail glass. Garnish with a lime wheel.",
+  "ingredients": [
+    { "name": "White Rum", "measure": "60 ml" },
+    { "name": "Mango Puree", "measure": "50 ml" },
+    { "name": "Lime Juice", "measure": "25 ml" },
+    { "name": "Sugar Syrup", "measure": "15 ml" }
+  ],
+  
+},
+{
+  "id": "custom-48",
+  "name": "Mango Sunrise",
+  "category": "cocktail",
+  "image": "https://www.sarcasticcooking.com/wp-content/uploads/2019/07/somrus-mango-sunrise-cocktail-3.jpg",
+  "glass": "Highball glass",
+  "instructions": "Fill glass with ice. Pour tequila and mango puree, top with orange juice. Slowly pour grenadine down the side of the glass to create the sunrise effect. Do not stir.",
+  "ingredients": [
+    { "name": "Tequila", "measure": "45 ml" },
+    { "name": "Mango Puree", "measure": "40 ml" },
+    { "name": "Orange Juice", "measure": "90 ml" },
+    { "name": "Grenadine", "measure": "15 ml" }
+  ],
+  
+},
+{
+  "id": "custom-49",
+  "name": "Mango Colada",
+  "category": "cocktail",
+  "image": "https://homemadehooplah.com/wp-content/uploads/2022/07/mango-colada-1.jpg",
+  "glass": "Hurricane glass",
+  "instructions": "Blend all ingredients with crushed ice until smooth. Pour into a hurricane glass and garnish with a pineapple wedge.",
+  "ingredients": [
+    { "name": "Bacardi", "measure": "60 ml" },
+    { "name": "Mango Puree", "measure": "60 ml" },
+    { "name": "Pineapple Juice", "measure": "60 ml" },
+    { "name": "Milk", "measure": "30 ml" }
+  ],
+  
+},
+{
+  "id": "custom-50",
+  "name": "Mango Passion",
+  "category": "cocktail",
+  "image": "https://fullofplants.com/wp-content/uploads/2022/09/mango-and-passion-fruit-liquor-homemade-4-ingredient-appetizer-thumb-2-1400x1400.jpg",
+  "glass": "Martini glass",
+  "instructions": "Add all ingredients to a shaker with ice. Shake well and strain into a chilled martini glass. Garnish with a passion fruit half.",
+  "ingredients": [
+    { "name": "Vodka", "measure": "45 ml" },
+    { "name": "Mango Puree", "measure": "40 ml" },
+    { "name": "Passion Fruit Liqueur", "measure": "20 ml" },
+    { "name": "Lime Juice", "measure": "15 ml" }
+  ],
+  
+},
+{
+  "id": "custom-51",
+  "name": "Mango Gin Fizz",
+  "category": "cocktail",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVTNAAf-v0QA5Qmqi-pEi6x39me_zUXQZ9Q&s",
+  "glass": "Highball glass",
+  "instructions": "Add gin, mango puree, lime juice and sugar syrup to a shaker with ice. Shake well and strain into a highball glass with ice. Top with soda water and stir gently.",
+  "ingredients": [
+    { "name": "Gin", "measure": "50 ml" },
+    { "name": "Mango Puree", "measure": "40 ml" },
+    { "name": "Lime Juice", "measure": "20 ml" },
+    { "name": "Sugar Syrup", "measure": "15 ml" },
+    { "name": "Soda Water", "measure": "60 ml" }
+  ],
+  
+},
+{
+  "id": "custom-52",
+  "name": "Tropical Blue",
+  "category": "cocktail",
+  "image": "https://thefoodiebunch.sfo3.digitaloceanspaces.com/wp-content/uploads/2024/12/12184417/Blue-Hawaiian-1140x570.png",
+  "glass": "Hurricane glass",
+  "instructions": "Add vodka, blue curacao, mango puree and pineapple juice to a shaker with ice. Shake and strain into a hurricane glass with ice. Top with sprite.",
+  "ingredients": [
+    { "name": "Vodka", "measure": "40 ml" },
+    { "name": "Blue Curacao", "measure": "25 ml" },
+    { "name": "Mango Puree", "measure": "40 ml" },
+    { "name": "Pineapple Juice", "measure": "60 ml" },
+    { "name": "Sprite", "measure": "Top up" }
+  ],
+  
+},
+{
+  "id": "custom-53",
+  "name": "Mango Peach Punch",
+  "category": "cocktail",
+  "image": "https://bonnemaman.us/cdn/shop/articles/Bonne_Maman-Mango_Peach_Splash_Cocktail.jpg?v=1730402055&width=1680",
+  "glass": "Highball glass",
+  "instructions": "Build in glass over ice. Stir gently and garnish with a peach slice.",
+  "ingredients": [
+    { "name": "Vodka", "measure": "30 ml" },
+    { "name": "Peach Schnapps", "measure": "30 ml" },
+    { "name": "Mango Puree", "measure": "40 ml" },
+    { "name": "Orange Juice", "measure": "60 ml" }
+  ],
+  
+},
+{
+  "id": "custom-54",
+  "name": "Mango Bomb",
+  "category": "shot",
+  "image": "https://scontent-ams2-1.cdninstagram.com/v/t39.30808-6/467494251_18051741700958498_3162628544241106993_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzMyOTk1NzY4NDI1NTYwMDg3Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=eREWuUnDcG4Q7kNvwHzzUDg&_nc_oc=Adk_UwxejFu4HRLJ1w_Qcy-3poFqB0MQhbs1PCCpn3fZRBwT4HxJjjyBBLqWrnbjlQm019TNcY_fcm8ndQGMby90&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=AVwhHa6S6xFEmA5DlkrSUg&oh=00_Afk1icq10S8FGmnGnrv3Pu46ft8KfxR-Rg0qwpxpSrUkFw&oe=694CBF55",
+  "glass": "Shot glass",
+  "instructions": "Shake all ingredients with ice. Strain into a shot glass.",
+  "ingredients": [
+    { "name": "Vodka", "measure": "25 ml" },
+    { "name": "Mango Puree", "measure": "15 ml" },
+    { "name": "Lime Juice", "measure": "10 ml" }
+  ],
+  
+},
+{
+  "id": "custom-55",
+  "name": "Tropical Slammer",
+  "category": "shot",
+  "image": "https://www.thecocktaildb.com/images/media/drink/43uhr51551451311.jpg",
+  "glass": "Shot glass",
+  "instructions": "Add tequila and mango puree to a shot glass. Top with 7-up. Cover with hand, slam on table and drink immediately.",
+  "ingredients": [
+    { "name": "Tequila", "measure": "25 ml" },
+    { "name": "Mango Puree", "measure": "15 ml" },
+    { "name": "7-Up", "measure": "Splash" }
+  ],
+  
+},
+{
+  "id": "custom-56",
+  "name": "Mango Lassi",
+  "category": "mocktail",
+  "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/mango-lassi-recipe.jpg",
+  "glass": "Highball glass",
+  "instructions": "Blend all ingredients until smooth. Pour into a glass and sprinkle with a pinch of cardamom if desired.",
+  "ingredients": [
+    { "name": "Mango Puree", "measure": "100 ml" },
+    { "name": "Milk", "measure": "100 ml" },
+    { "name": "Honey", "measure": "1 tsp" },
+    { "name": "Sugar", "measure": "1 tsp" }
+  ],
+  
+},
+{
+  "id": "custom-57",
+  "name": "Mango Lemonade",
+  "category": "mocktail",
+  "image": "https://www.jocooks.com/wp-content/uploads/2014/08/mango-lemonade-1-11.jpg",
+  "glass": "Highball glass",
+  "instructions": "Add mango puree, lemon juice and sugar syrup to a glass with ice. Top with soda water and stir gently. Garnish with a lemon slice.",
+  "ingredients": [
+    { "name": "Mango Puree", "measure": "60 ml" },
+    { "name": "Lemon Juice", "measure": "30 ml" },
+    { "name": "Sugar Syrup", "measure": "20 ml" },
+    { "name": "Soda Water", "measure": "100 ml" }
+  ],
+  
+},
+{
+  "id": "custom-58",
+  "name": "Virgin Mango Sunrise",
+  "category": "mocktail",
+  "image": "https://mocktail.net/wp-content/uploads/2021/08/Summer-Sunrise-Mocktail_ig.jpg",
+  "glass": "Highball glass",
+  "instructions": "Fill glass with ice. Add mango puree and orange juice, stir gently. Slowly pour grenadine down the side of the glass. Do not stir.",
+  "ingredients": [
+    { "name": "Mango Puree", "measure": "60 ml" },
+    { "name": "Orange Juice", "measure": "120 ml" },
+    { "name": "Grenadine", "measure": "15 ml" }
+  ],
+  
 },
 ];
 
@@ -1584,7 +1735,8 @@ export default function CocktailBar() {
   'mint',
   'lemon',
   'orange',
-  'mango'
+  'mango',
+  'mango puree'
 
 ]);
   const [customRecipes, setCustomRecipes] = useState([]);
@@ -1600,7 +1752,9 @@ export default function CocktailBar() {
   const [categoryFilter, setCategoryFilter] = useState('all');
   const [showHomepage, setShowHomepage] = useState(true);
   const [isFading, setIsFading] = useState(false);
-  
+  // Add this near the top of your CocktailBar component, after the state declarations
+  const [visibleCards, setVisibleCards] = useState(new Set());
+
   // New recipe form state
   const [newRecipe, setNewRecipe] = useState({
     name: '',
@@ -1630,7 +1784,7 @@ useEffect(() => {
         setCategoryFilter('all');
         setIsFading(false);
       }, 1000); // 1 second fade duration
-    }, 60000); // 1 minute inactivity
+    }, 3600000); // 1 minute inactivity
   };
   
   const events = ['click', 'touchstart', 'scroll', 'keydown'];
@@ -1806,7 +1960,12 @@ const ingredientMatches = (invItem, recipeIng) => {
     setCustomRecipes(customRecipes.filter(r => r.id !== id));
     setSelectedCocktail(null);
   };
-
+  const selectRandomCocktail = () => {
+  if (filteredCocktails.length > 0) {
+    const randomIndex = Math.floor(Math.random() * filteredCocktails.length);
+    setSelectedCocktail(filteredCocktails[randomIndex]);
+  }
+  };
   const filteredCocktails = availableCocktails
     .filter(c => {
       const term = searchTerm.toLowerCase();
@@ -1818,6 +1977,25 @@ const ingredientMatches = (invItem, recipeIng) => {
       return (nameMatch || ingredientMatch) && categoryMatch;
     })
     .sort((a, b) => a.name.localeCompare(b.name));
+
+  // Fade in cards on scroll
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setVisibleCards((prev) => new Set([...prev, entry.target.dataset.id]));
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '50px' }
+    );
+
+    const cards = document.querySelectorAll('.cocktail-card');
+    cards.forEach((card) => observer.observe(card));
+
+    return () => observer.disconnect();
+  }, [filteredCocktails]);
   // Common liquors for quick-add
   const commonLiquors = [
     'vodka', 'gin', 'rum', 'white rum', 'dark rum', 'tequila', 'whiskey', 'bourbon',
@@ -1993,9 +2171,9 @@ if (showHomepage) {
         <p
           style={{
             color: '#d4af37',
-            fontSize: '1rem',
+            fontSize: '1.3rem',
             letterSpacing: '0.3em',
-            marginBottom: '5px',
+            marginBottom: '40px',
             fontFamily: "'Ubuntu', sans-serif",
           }}
         >
@@ -2005,7 +2183,7 @@ if (showHomepage) {
         <h2
           style={{
             color: '#d4af37',
-            fontSize: '1.5rem',
+            fontSize: '1.8rem',
             letterSpacing: '0.4em',
             fontWeight: '400',
             marginBottom: '30px',
@@ -2017,7 +2195,7 @@ if (showHomepage) {
 
         <h1
           style={{
-            fontSize: '4rem',
+            fontSize: '6rem',
             fontWeight: '300',
             letterSpacing: '0.15em',
             background: 'linear-gradient(90deg, #b8860b 0%, #ffd700 25%, #fffacd 50%, #ffd700 75%, #b8860b 100%)',
@@ -2042,7 +2220,7 @@ if (showHomepage) {
           className="tap-text"
           style={{
             color: '#d4af37',
-            fontSize: '1.2rem',
+            fontSize: '1.4rem',
             letterSpacing: '0.2em',
             marginTop: '40px',
             fontFamily: "'Ubuntu', sans-serif",
@@ -2106,14 +2284,36 @@ return (
         }
         
         .cocktail-card {
-          animation: fadeInUp 0.4s ease forwards;
-          opacity: 0;
+          position: relative;
+          border-radius: 16px;
+          background: linear-gradient(135deg, #b8860b, #ffd700, #fffacd, #ffd700, #b8860b);
+          padding: 2px;
+          overflow: hidden;
         }
-        
+
+        .cocktail-card::before {
+          content: '';
+          position: absolute;
+          inset: 2px;
+          background: linear-gradient(145deg, rgba(30, 30, 30, 0.98) 0%, rgba(15, 15, 15, 0.99) 100%);
+          border-radius: 14px;
+          z-index: 0;
+        }
+
+        .cocktail-card > * {
+          position: relative;
+          z-index: 1;
+        }
+
         .cocktail-card:hover {
-          transform: translateY(-5px);
-          box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15);
-          border-color: rgba(212, 175, 55, 0.4);
+          transform: translateY(-8px) scale(1.02);
+          box-shadow: 0 12px 40px rgba(212, 175, 55, 0.25), 
+                      0 0 30px rgba(212, 175, 55, 0.15);
+          background: linear-gradient(135deg, #ffd700, #fffacd, #ffd700);
+        }
+
+        .cocktail-card:hover img {
+          transform: scale(1.05);
         }
         
         .glitter {
@@ -2164,16 +2364,13 @@ return (
             ...(view === 'inventory' ? styles.navButtonActive : {})
           }}
         >
-          My Bar ({inventory.length})
+          + Recipe
         </button>
         <button
-          onClick={() => { setView('add-recipe'); setSelectedCocktail(null); }}
-          style={{
-            ...styles.navButton,
-            ...(view === 'add-recipe' ? styles.navButtonActive : {})
-          }}
+          onClick={selectRandomCocktail}
+          style={styles.navButton}
         >
-          + Recipe
+          Surprise Me
         </button>
       </nav>
 
@@ -2199,25 +2396,67 @@ return (
             ) : (
               <>
           <div style={styles.searchContainer}>
-            <input
-              type="text"
-              placeholder="Search cocktails or ingredients..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              style={styles.searchInput}
-            />
-            <select
-              value={categoryFilter}
-              onChange={(e) => setCategoryFilter(e.target.value)}
-              style={styles.categorySelect}
-            >
-              <option value="all">All Drinks</option>
-              <option value="cocktail">Cocktails</option>
-              <option value="mocktail">Mocktails</option>
-              <option value="shot">Shots</option>
-            </select>
-          </div>
-                
+            <div style={{
+              flex: 1,
+              background: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b)',
+              borderRadius: '8px',
+              padding: '2px',
+            }}>
+              <input
+                type="text"
+                placeholder="Search cocktails or ingredients..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                style={{
+                  width: '100%',
+                  padding: '16px 20px',
+                  fontSize: '1.1rem',
+                  background: '#1a1a1a',
+                  border: 'none',
+                  borderRadius: '6px',
+                  color: '#f5f0e8',
+                  fontFamily: "'Ubuntu', sans-serif",
+                  outline: 'none',
+                  boxSizing: 'border-box',
+                }}
+              />
+            </div>
+            <div style={{
+              background: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b)',
+              borderRadius: '8px',
+              padding: '2px',
+            }}>
+              <select
+                value={categoryFilter}
+                onChange={(e) => setCategoryFilter(e.target.value)}
+                style={{
+                  padding: '16px 20px',
+                  fontSize: '1rem',
+                  background: '#1a1a1a',
+                  border: 'none',
+                  borderRadius: '6px',
+                  color: '#f5f0e8',
+                  fontFamily: "'Ubuntu', sans-serif",
+                  outline: 'none',
+                  cursor: 'pointer',
+                  minWidth: '140px',
+                  appearance: 'none',
+                  WebkitAppearance: 'none',
+                  backgroundImage: 'url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23d4af37\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3e%3cpolyline points=\'6 9 12 15 18 9\'%3e%3c/polyline%3e%3c/svg%3e")',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'right 12px center',
+                  backgroundSize: '16px',
+                  paddingRight: '40px',
+                  height: '100%',
+                }}
+              >
+                <option value="all" style={{ background: '#1a1a1a', color: '#f5f0e8' }}>All Drinks</option>
+                <option value="cocktail" style={{ background: '#1a1a1a', color: '#f5f0e8' }}>Cocktails</option>
+                <option value="mocktail" style={{ background: '#1a1a1a', color: '#f5f0e8' }}>Mocktails</option>
+                <option value="shot" style={{ background: '#1a1a1a', color: '#f5f0e8' }}>Shots</option>
+              </select>
+            </div>
+          </div>    
                 {showDebug && (
                   <div style={styles.debugPanel}>
                     <p><strong>Database:</strong> {allCocktails.length} cocktails loaded</p>
@@ -2248,16 +2487,20 @@ return (
                   </div>
                 ) : (
                   <div style={styles.cocktailGrid}>
-                    {filteredCocktails.map((cocktail, index) => (
-                      <div
-                        key={cocktail.id}
-                        className="cocktail-card"
-                        onClick={() => setSelectedCocktail(cocktail)}
-                        style={{
-                          ...styles.cocktailCard,
-                          animationDelay: `${index * 0.05}s`
-                        }}
-                      >
+                {filteredCocktails.map((cocktail, index) => (
+                  <div
+                    key={cocktail.id}
+                    data-id={cocktail.id}
+                    className="cocktail-card"
+                    onClick={() => setSelectedCocktail(cocktail)}
+                    style={{
+                      ...styles.cocktailCard,
+                      opacity: visibleCards.has(cocktail.id) ? 1 : 0,
+                      transform: visibleCards.has(cocktail.id) ? 'translateY(0)' : 'translateY(30px)',
+                      transition: 'opacity 0.5s ease, transform 0.5s ease',
+                      transitionDelay: `${(index % 4) * 0.1}s`,
+                    }}
+                  >
                         {cocktail.image ? (
                           <img
                             src={cocktail.image}
@@ -2303,8 +2546,32 @@ return (
               ← Back
             </button>
             
-            <div style={styles.recipeLayout}>
-              {/* Left side - Image */}
+            {/* Name and Badge Row */}
+            <div style={{ 
+              display: 'flex', 
+              justifyContent: 'space-between', 
+              alignItems: 'center', 
+              marginBottom: '32px',
+              flexWrap: 'wrap',
+              gap: '16px',
+            }}>
+              <h2 style={{ ...styles.recipeName, margin: 0 }}>{selectedCocktail.name}</h2>
+              {selectedCocktail.category && (
+                <span style={{
+                  ...styles.categoryBadge,
+                  ...(selectedCocktail.category === 'mocktail' ? styles.mocktailBadge : {}),
+                  ...(selectedCocktail.category === 'shot' ? styles.shotBadge : {}),
+                  fontSize: '0.9rem',
+                  padding: '8px 20px',
+                  margin: 0,
+                }}>
+                  {selectedCocktail.category}
+                </span>
+              )}
+            </div>
+
+            {/* Image and Ingredients Row */}
+            <div style={{ display: 'flex', gap: '40px', flexWrap: 'wrap', marginBottom: '32px' }}>
               <div style={styles.recipeImageContainer}>
                 {selectedCocktail.image ? (
                   <img
@@ -2317,13 +2584,10 @@ return (
                 )}
               </div>
 
-              {/* Right side - Info */}
-              <div style={styles.recipeContent}>
-                <h2 style={styles.recipeName}>{selectedCocktail.name}</h2>
+              <div style={{ flex: 1, minWidth: '250px' }}>
                 {selectedCocktail.glass && (
-                  <p style={styles.recipeGlass}>Serve in: {selectedCocktail.glass}</p>
+                  <p style={{ ...styles.recipeGlass, marginTop: 0 }}>Serve in: {selectedCocktail.glass}</p>
                 )}
-
                 <div style={styles.recipeSection}>
                   <h3 style={styles.recipeSectionTitle}>Ingredients</h3>
                   <ul style={styles.ingredientList}>
@@ -2335,24 +2599,25 @@ return (
                     ))}
                   </ul>
                 </div>
-
-                {selectedCocktail.instructions && (
-                  <div style={styles.recipeSection}>
-                    <h3 style={styles.recipeSectionTitle}>Instructions</h3>
-                    <p style={styles.instructions}>{selectedCocktail.instructions}</p>
-                  </div>
-                )}
-
-                {selectedCocktail.isCustom && (
-                  <button
-                    onClick={() => deleteCustomRecipe(selectedCocktail.id)}
-                    style={styles.deleteButton}
-                  >
-                    Delete Recipe
-                  </button>
-                )}
               </div>
             </div>
+
+            {/* Instructions */}
+            {selectedCocktail.instructions && (
+              <div style={styles.recipeSection}>
+                <h3 style={styles.recipeSectionTitle}>Instructions</h3>
+                <p style={styles.instructions}>{selectedCocktail.instructions}</p>
+              </div>
+            )}
+
+            {selectedCocktail.isCustom && (
+              <button
+                onClick={() => deleteCustomRecipe(selectedCocktail.id)}
+                style={styles.deleteButton}
+              >
+                Delete Recipe
+              </button>
+            )}
           </div>
         )}
         {/* Inventory View */}
@@ -2503,8 +2768,8 @@ const styles = {
     padding: '16px 20px',
     fontSize: '1rem',
     background: '#1a1a1a',
-    border: '1px solid rgba(212, 175, 55, 0.2)',
-    borderRadius: '4px',
+    border: '1px solid transparent',
+    borderImage: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b) 1',
     color: '#f5f0e8',
     fontFamily: "'Ubuntu', sans-serif",
     outline: 'none',
@@ -2517,7 +2782,7 @@ const styles = {
     backgroundPosition: 'right 12px center',
     backgroundSize: '16px',
     paddingRight: '40px',
-  },
+},
   container: {
     minHeight: '100vh',
     background: 'linear-gradient(145deg, #1a1a1a 0%, #0d0d0d 50%, #1a1512 100%)',
@@ -2527,15 +2792,18 @@ const styles = {
   },
   header: {
     textAlign: 'center',
-    padding: '48px 24px 24px',
-    borderBottom: '1px solid rgba(212, 175, 55, 0.2)',
+    padding: '60px 24px 40px',
+    borderBottom: '1px solid transparent',
+    borderImage: 'linear-gradient(90deg, transparent, #b8860b, #ffd700, #fffacd, #ffd700, #b8860b, transparent) 1',
+    background: 'linear-gradient(180deg, rgba(212, 175, 55, 0.05) 0%, transparent 100%)',
+    position: 'relative',
   },
   title: {
-    fontSize: '3.5rem',
-    letterSpacing: '0.1em',
+    fontSize: '4rem',
+    fontWeight: '300',
+    letterSpacing: '0.15em',
     textTransform: 'uppercase',
-    fontFamily: 'Domine',
-    fontWeight: '700',
+    fontFamily: "'Cinzel', serif",
     background: 'linear-gradient(90deg, #b8860b 0%, #ffd700 20%, #fffacd 40%, #ffd700 60%, #b8860b 80%, #b8860b 100%)',
     backgroundSize: '200% auto',
     WebkitBackgroundClip: 'text',
@@ -2543,36 +2811,39 @@ const styles = {
     backgroundClip: 'text',
     animation: 'shimmer 3s linear infinite',
     margin: 0,
+    textShadow: 'none',
+    filter: 'drop-shadow(0 0 20px rgba(212, 175, 55, 0.3))',
   },
   subtitle: {
     fontSize: '1.1rem',
-    color: 'rgba(245, 240, 232, 0.6)',
-    marginTop: '12px',
+    color: 'rgba(212, 175, 55, 0.7)',
+    marginTop: '16px',
     fontStyle: 'italic',
-    letterSpacing: '0.1em',
+    letterSpacing: '0.15em',
   },
   nav: {
     display: 'flex',
     justifyContent: 'center',
     gap: '8px',
     padding: '20px 16px',
-    borderBottom: '1px solid rgba(212, 175, 55, 0.1)',
+    borderBottom: '1px solid transparent',
+    borderImage: 'linear-gradient(90deg, transparent, #b8860b, #ffd700, #fffacd, #ffd700, #b8860b, transparent) 1',
   },
   navButton: {
     background: 'transparent',
-    border: '1px solid rgba(212, 175, 55, 0.3)',
+    border: '1px solid transparent',
+    borderImage: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b) 1',
     color: 'rgba(245, 240, 232, 0.7)',
     padding: '12px 24px',
     fontSize: '0.95rem',
     cursor: 'pointer',
     transition: 'all 0.3s ease',
-    fontFamily: "'Ubuntu', Georgia, serif",
+    fontFamily: "'Ubuntu', sans-serif",
     letterSpacing: '0.1em',
-    borderRadius: '2px',
   },
   navButtonActive: {
     background: 'rgba(212, 175, 55, 0.15)',
-    borderColor: '#d4af37',
+    borderImage: 'linear-gradient(135deg, #ffd700, #fffacd, #ffd700) 1',
     color: '#d4af37',
   },
   main: {
@@ -2588,10 +2859,11 @@ const styles = {
     padding: '16px 20px',
     fontSize: '1.1rem',
     background: 'rgba(255, 255, 255, 0.05)',
-    border: '1px solid rgba(212, 175, 55, 0.2)',
-    borderRadius: '4px',
+    border: '2px solid transparent',
+    borderRadius: '8px',
+    borderImage: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b) 1',
     color: '#f5f0e8',
-    fontFamily: "'Ubuntu', Georgia, serif",
+    fontFamily: "'Ubuntu', sans-serif",
     outline: 'none',
     boxSizing: 'border-box',
   },
@@ -2626,45 +2898,55 @@ const styles = {
   },
   cocktailGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))',
-    gap: '24px',
+    gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+    gap: '32px',
+    padding: '20px',
   },
   cocktailCard: {
-    background: 'rgba(255, 255, 255, 0.03)',
-    border: '1px solid rgba(212, 175, 55, 0.15)',
-    borderRadius: '8px',
+    borderRadius: '16px',
     overflow: 'hidden',
     cursor: 'pointer',
-    transition: 'all 0.3s ease',
+    transition: 'all 0.4s ease',
+    boxShadow: '0 4px 20px rgba(0, 0, 0, 0.4)',
   },
   cocktailImage: {
+    background: '#fff',
     width: '100%',
-    height: '200px',
+    height: '220px',
     objectFit: 'cover',
-    background: '#fff'
+    borderRadius: '16px 16px 0 0',
+    borderBottom: '1px solid transparent',
+    borderImage: 'linear-gradient(90deg, #b8860b, #ffd700, #fffacd, #ffd700, #b8860b) 1',
+    transition: 'transform 0.4s ease',
   },
   cocktailImagePlaceholder: {
     width: '100%',
-    height: '200px',
+    height: '220px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     fontSize: '4rem',
-    background: 'rgba(212, 175, 55, 0.1)',
+    background: 'linear-gradient(145deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.05) 100%)',
   },
   cocktailInfo: {
-    padding: '16px 20px',
+    padding: '20px 24px',
+    background: 'linear-gradient(180deg, transparent 0%, rgba(212, 175, 55, 0.03) 100%)',
   },
   cocktailName: {
-    fontSize: '1.4rem',
+    fontSize: '1.5rem',
     fontWeight: '500',
     margin: 0,
-    color: '#f5f0e8',
+    color: '#fff',
+    textShadow: '0 2px 4px rgba(0,0,0,0.3)',
+    letterSpacing: '0.02em',
   },
   cocktailMeta: {
     fontSize: '0.9rem',
-    color: 'rgba(245, 240, 232, 0.5)',
-    marginTop: '6px',
+    color: 'rgba(212, 175, 55, 0.8)',
+    marginTop: '10px',
+    display: 'flex',
+    alignItems: 'center',
+    gap: '8px',
   },
   customBadge: {
     background: 'rgba(212, 175, 55, 0.2)',
@@ -2743,9 +3025,9 @@ const styles = {
     width: '300px',
     height: '300px',
     objectFit: 'cover',
-    borderRadius: '8px',
-    border: '1px solid rgba(212, 175, 55, 0.2)',
-    background: '#fff'
+    border: '1px solid transparent',
+    borderImage: 'linear-gradient(135deg, #b8860b, #ffd700, #fffacd, #ffd700, #b8860b) 1',
+    background: '#fff',
   },
   recipeImagePlaceholder: {
     width: '300px',
@@ -2794,7 +3076,8 @@ const styles = {
     color: '#d4af37',
     marginBottom: '16px',
     paddingBottom: '8px',
-    borderBottom: '1px solid rgba(212, 175, 55, 0.2)',
+    borderBottom: '1px solid transparent',
+    borderImage: 'linear-gradient(90deg, #b8860b, #ffd700, #fffacd, #ffd700, #b8860b, transparent) 1',
   },
   ingredientList: {
     listStyle: 'none',
@@ -2804,7 +3087,8 @@ const styles = {
   ingredientItem: {
     display: 'flex',
     padding: '12px 0',
-    borderBottom: '1px solid rgba(255, 255, 255, 0.05)',
+    borderBottom: '1px solid transparent',
+    borderImage: 'linear-gradient(90deg, rgba(184, 134, 11, 0.3), rgba(255, 215, 0, 0.2), transparent) 1',
     fontSize: '1.15rem',
   },
   ingredientMeasure: {
@@ -2867,10 +3151,10 @@ const styles = {
   },
   inventoryTag: {
     background: 'rgba(212, 175, 55, 0.15)',
-    border: '1px solid rgba(212, 175, 55, 0.4)',
+    border: '1px solid transparent',
+    borderImage: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b) 1',
     color: '#d4af37',
     padding: '10px 16px',
-    borderRadius: '4px',
     fontSize: '0.95rem',
     cursor: 'pointer',
     transition: 'all 0.2s ease',
@@ -2878,10 +3162,10 @@ const styles = {
   },
   suggestionTag: {
     background: 'rgba(255, 255, 255, 0.03)',
-    border: '1px solid rgba(255, 255, 255, 0.1)',
+    border: '1px solid transparent',
+    borderImage: 'linear-gradient(135deg, rgba(184, 134, 11, 0.5), rgba(255, 215, 0, 0.3), rgba(184, 134, 11, 0.5)) 1',
     color: 'rgba(245, 240, 232, 0.6)',
     padding: '10px 16px',
-    borderRadius: '4px',
     fontSize: '0.95rem',
     cursor: 'pointer',
     transition: 'all 0.2s ease',
@@ -2914,10 +3198,11 @@ const styles = {
     padding: '14px 16px',
     fontSize: '1rem',
     background: 'rgba(255, 255, 255, 0.05)',
-    border: '1px solid rgba(212, 175, 55, 0.2)',
+    border: '5px solid transparent',
+    borderImage: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b) 1',
     borderRadius: '4px',
     color: '#f5f0e8',
-    fontFamily: "'Ubuntu', Georgia, serif",
+    fontFamily: "'Ubuntu', sans-serif",
     outline: 'none',
     boxSizing: 'border-box',
   },
@@ -2926,10 +3211,10 @@ const styles = {
     padding: '14px 16px',
     fontSize: '1rem',
     background: 'rgba(255, 255, 255, 0.05)',
-    border: '1px solid rgba(212, 175, 55, 0.2)',
-    borderRadius: '4px',
+    border: '1px solid transparent',
+    borderImage: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b) 1',
     color: '#f5f0e8',
-    fontFamily: "'Ubuntu', Georgia, serif",
+    fontFamily: "'Ubuntu', sans-serif",
     outline: 'none',
     resize: 'vertical',
     boxSizing: 'border-box',
@@ -2952,14 +3237,14 @@ const styles = {
   },
   addIngButton: {
     background: 'transparent',
-    border: '1px dashed rgba(212, 175, 55, 0.4)',
+    border: '1px dashed transparent',
+    borderImage: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b) 1',
     color: '#d4af37',
     padding: '12px',
     width: '100%',
     fontSize: '0.95rem',
     cursor: 'pointer',
-    fontFamily: "'Ubuntu', Georgia, serif",
-    borderRadius: '4px',
+    fontFamily: "'Ubuntu', sans-serif",
   },
   saveButton: {
     width: '100%',
@@ -2977,20 +3262,24 @@ const styles = {
     marginTop: '16px',
   },
   categoryBadge: {
-  background: 'rgba(212, 175, 55, 0.2)',
-  color: '#d4af37',
-  padding: '2px 8px',
-  borderRadius: '3px',
-  fontSize: '0.8rem',
-  marginRight: '8px',
-  textTransform: 'capitalize',
+    background: 'linear-gradient(135deg, rgba(0, 51, 102, 0.25) 0%, rgba(15, 82, 186, 0.1) 100%)',
+    color: '#4a90d9',
+    padding: '4px 12px',
+    fontSize: '0.75rem',
+    marginRight: '8px',
+    textTransform: 'uppercase',
+    letterSpacing: '0.1em',
+    border: '1px solid transparent',
+    borderImage: 'linear-gradient(90deg, #003366 0%, #0F52BA 50%, #003366 100%) 1',
   },
   mocktailBadge: {
-    background: 'rgba(100, 200, 100, 0.2)',
-    color: '#6c6',
+    background: 'linear-gradient(135deg, rgba(100, 200, 100, 0.25) 0%, rgba(100, 200, 100, 0.1) 100%)',
+    color: '#7c7',
+    borderImage: 'linear-gradient(135deg, #4a8a4a, #7c7, #4a8a4a) 1',
   },
   shotBadge: {
-    background: 'rgba(200, 100, 100, 0.2)',
-    color: '#c66',
+    background: 'linear-gradient(135deg, rgba(200, 100, 100, 0.25) 0%, rgba(200, 100, 100, 0.1) 100%)',
+    color: '#c77',
+    borderImage: 'linear-gradient(135deg, #8a4a4a, #c77, #8a4a4a) 1',
   },
 };
