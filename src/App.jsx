@@ -1752,10 +1752,17 @@ export default function CocktailBar() {
   const [categoryFilter, setCategoryFilter] = useState('all');
   const [showHomepage, setShowHomepage] = useState(true);
   const [isFading, setIsFading] = useState(false);
-  // Add this near the top of your CocktailBar component, after the state declarations
+  const [isExiting, setIsExiting] = useState(false);
   const [visibleCards, setVisibleCards] = useState(new Set());
 
-  // New recipe form state
+  const handleEnter = () => {
+    setIsExiting(true);
+    setTimeout(() => {
+      setShowHomepage(false);
+      setIsExiting(false);
+    }, 1000);
+  };
+
   const [newRecipe, setNewRecipe] = useState({
     name: '',
     ingredients: [{ name: '', measure: '' }],
@@ -2068,16 +2075,35 @@ if (showHomepage) {
       />
 
       <style>{`
-        @keyframes fall {
+        @keyframes curtainReveal {
           0% {
-            transform: translateY(-100px) rotate(0deg);
-            opacity: 1;
+            clip-path: inset(0 0 0 0);
           }
           100% {
-            transform: translateY(100vh) rotate(360deg);
-            opacity: 0;
+            clip-path: inset(0 0 100% 0);
           }
         }
+
+        @keyframes textFadeUp {
+          0% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+          100% {
+            opacity: 0;
+            transform: translateY(-50px);
+          }
+        }
+            @keyframes fall {
+            0% {
+              transform: translateY(-100px) rotate(0deg);
+              opacity: 1;
+            }
+            100% {
+              transform: translateY(100vh) rotate(360deg);
+              opacity: 0;
+            }
+          }
         @keyframes fadeOut {
           from { opacity: 1; }
           to { opacity: 0; }
@@ -2104,7 +2130,7 @@ if (showHomepage) {
           }
           50% { 
             opacity: 1; 
-            transform: scale(1.05);
+            transform: scale(1.1);
             text-shadow: 0 0 20px rgba(212, 175, 55, 0.8);
           }
         }
@@ -2310,10 +2336,12 @@ return (
           box-shadow: 0 12px 40px rgba(212, 175, 55, 0.25), 
                       0 0 30px rgba(212, 175, 55, 0.15);
           background: linear-gradient(135deg, #ffd700, #fffacd, #ffd700);
+          overflow: hidden;
         }
 
         .cocktail-card:hover img {
-          transform: scale(1.05);
+          transform: scale(1.2);
+          overflow: hidden;
         }
         
         .glitter {
@@ -2348,30 +2376,54 @@ return (
 
       {/* Navigation */}
       <nav style={styles.nav}>
-        <button
-          onClick={() => { setView('cocktails'); setSelectedCocktail(null); }}
-          style={{
-            ...styles.navButton,
-            ...(view === 'cocktails' ? styles.navButtonActive : {})
-          }}
-        >
-          Cocktails
-        </button>
-        <button
-          onClick={() => { setView('add-recipe'); setSelectedCocktail(null); }}
-          style={{
-            ...styles.navButton,
-            ...(view === 'add-recipe' ? styles.navButtonActive : {})
-          }}
-        >
-          + Recipe
-        </button>
-        <button
-          onClick={selectRandomCocktail}
-          style={styles.navButton}
-        >
-          Surprise Me
-        </button>
+        <div style={{
+          background: view === 'cocktails' 
+            ? 'linear-gradient(135deg, #ffd700, #fffacd, #ffd700)' 
+            : 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b)',
+          borderRadius: '12px',
+          padding: '2px',
+        }}>
+          <button
+            onClick={() => { setView('cocktails'); setSelectedCocktail(null); }}
+            style={{
+              ...styles.navButton,
+              ...(view === 'cocktails' ? styles.navButtonActive : {})
+            }}
+          >
+            Cocktails
+          </button>
+        </div>
+        
+        <div style={{
+          background: view === 'add-recipe' 
+            ? 'linear-gradient(135deg, #ffd700, #fffacd, #ffd700)' 
+            : 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b)',
+          borderRadius: '12px',
+          padding: '2px',
+        }}>
+          <button
+            onClick={() => { setView('add-recipe'); setSelectedCocktail(null); }}
+            style={{
+              ...styles.navButton,
+              ...(view === 'add-recipe' ? styles.navButtonActive : {})
+            }}
+          >
+            + Recipe
+          </button>
+        </div>
+        
+        <div style={{
+          background: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b)',
+          borderRadius: '12px',
+          padding: '2px',
+        }}>
+          <button
+            onClick={selectRandomCocktail}
+            style={styles.navButton}
+          >
+            Surprise Me
+          </button>
+        </div>
       </nav>
 
       {/* Main Content */}
@@ -2397,9 +2449,9 @@ return (
               <>
           <div style={styles.searchContainer}>
             <div style={{
-              flex: 1,
+              width: '978px',
               background: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b)',
-              borderRadius: '8px',
+              borderRadius: '16px',
               padding: '2px',
             }}>
               <input
@@ -2413,7 +2465,7 @@ return (
                   fontSize: '1.1rem',
                   background: '#1a1a1a',
                   border: 'none',
-                  borderRadius: '6px',
+                  borderRadius: '16px',
                   color: '#f5f0e8',
                   fontFamily: "'Ubuntu', sans-serif",
                   outline: 'none',
@@ -2423,23 +2475,24 @@ return (
             </div>
             <div style={{
               background: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b)',
-              borderRadius: '8px',
+              borderRadius: '16px',
               padding: '2px',
             }}>
               <select
                 value={categoryFilter}
                 onChange={(e) => setCategoryFilter(e.target.value)}
                 style={{
+
                   padding: '16px 20px',
                   fontSize: '1rem',
                   background: '#1a1a1a',
                   border: 'none',
-                  borderRadius: '6px',
+                  borderRadius: '16px',
                   color: '#f5f0e8',
                   fontFamily: "'Ubuntu', sans-serif",
                   outline: 'none',
                   cursor: 'pointer',
-                  minWidth: '140px',
+                  minWidth: '290px',
                   appearance: 'none',
                   WebkitAppearance: 'none',
                   backgroundImage: 'url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23d4af37\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3e%3cpolyline points=\'6 9 12 15 18 9\'%3e%3c/polyline%3e%3c/svg%3e")',
@@ -2499,14 +2552,21 @@ return (
                       transform: visibleCards.has(cocktail.id) ? 'translateY(0)' : 'translateY(30px)',
                       transition: 'opacity 0.5s ease, transform 0.5s ease',
                       transitionDelay: `${(index % 4) * 0.1}s`,
+                      overflow: 'hidden',
                     }}
                   >
                         {cocktail.image ? (
-                          <img
-                            src={cocktail.image}
-                            alt={cocktail.name}
-                            style={styles.cocktailImage}
-                          />
+                          <div style={{ 
+                            overflow: 'hidden', 
+                            borderRadius: '14px 14px 0 0',
+                            height: '220px',
+                          }}>
+                            <img
+                              src={cocktail.image}
+                              alt={cocktail.name}
+                              style={styles.cocktailImage}
+                            />
+                          </div>
                         ) : (
                           <div style={styles.cocktailImagePlaceholder}>
                             🍹
@@ -2811,13 +2871,14 @@ const styles = {
     backgroundPosition: 'right 12px center',
     backgroundSize: '16px',
     paddingRight: '40px',
-},
+  },
   container: {
     minHeight: '100vh',
     background: 'linear-gradient(145deg, #1a1a1a 0%, #0d0d0d 50%, #1a1512 100%)',
     color: '#f5f0e8',
     fontFamily: "'Ubuntu', sans-serif",
     fontWeight: '500',
+    scrollbarGutter: 'stable',  // Reserves space for scrollbar
   },
   header: {
     textAlign: 'center',
@@ -2859,9 +2920,9 @@ const styles = {
     borderImage: 'linear-gradient(90deg, transparent, #b8860b, #ffd700, #fffacd, #ffd700, #b8860b, transparent) 1',
   },
   navButton: {
-    background: 'transparent',
-    border: '1px solid transparent',
-    borderImage: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b) 1',
+    background: '#1a1a1a',
+    border: 'none',
+    borderRadius: '10px',  // 12px - 2px padding
     color: 'rgba(245, 240, 232, 0.7)',
     padding: '12px 24px',
     fontSize: '0.95rem',
@@ -2872,8 +2933,8 @@ const styles = {
   },
   navButtonActive: {
     background: 'rgba(212, 175, 55, 0.15)',
-    borderImage: 'linear-gradient(135deg, #ffd700, #fffacd, #ffd700) 1',
-    color: '#d4af37',
+    color: '#000000ff',
+    fontWeight: '600',
   },
   main: {
     padding: '24px',
@@ -2900,6 +2961,9 @@ const styles = {
     display: 'flex',
     gap: '12px',
     marginBottom: '24px',
+    padding: '0 20px',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
   debugToggle: {
     background: 'rgba(255, 255, 255, 0.05)',
@@ -2943,7 +3007,6 @@ const styles = {
     width: '100%',
     height: '220px',
     objectFit: 'cover',
-    borderRadius: '16px 16px 0 0',
     borderBottom: '1px solid transparent',
     borderImage: 'linear-gradient(90deg, #b8860b, #ffd700, #fffacd, #ffd700, #b8860b) 1',
     transition: 'transform 0.4s ease',
