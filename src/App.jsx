@@ -2019,7 +2019,7 @@ if (showHomepage) {
   const glitters = Array.from({ length: 1000 }, (_, i) => ({
     id: i,
     left: Math.random() * 100,
-    delay: Math.random() * 3,
+    delay: Math.random() * 10,
     duration: 1.5 + Math.random() * 4,
     size: 2 + Math.random() * 3,
   }));
@@ -2027,7 +2027,7 @@ if (showHomepage) {
   const stars = Array.from({ length: 20 }, (_, i) => ({
     id: i,
     left: 10 + Math.random() * 80,
-    top: 5 + Math.random() * 30,
+    top: 5 + Math.random() * 70,
     delay: Math.random() * 3,
     size: 10 + Math.random() * 15,
   }));
@@ -2134,6 +2134,16 @@ if (showHomepage) {
             text-shadow: 0 0 20px rgba(212, 175, 55, 0.8);
           }
         }
+        @keyframes textFadeDown {
+          0% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+          100% {
+            opacity: 0;
+            transform: translateY(50px);
+          }
+        }
         .glitter {
           position: absolute;
           background: #d4af37;
@@ -2192,6 +2202,7 @@ if (showHomepage) {
           padding: '60px 80px',
           textAlign: 'center',
           position: 'relative',
+          animation: isExiting ? 'textFadeDown 0.8s ease-out forwards' : 'none',
         }}
       >
         <p
@@ -2308,7 +2319,16 @@ return (
           0%, 100% { opacity: 0.6; }
           50% { opacity: 1; }
         }
-        
+        @keyframes fadeInDown {
+          0% {
+            opacity: 0;
+            transform: translateY(-30px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }        
         .cocktail-card {
           position: relative;
           border-radius: 16px;
@@ -2367,15 +2387,21 @@ return (
       `}</style>
       
       {/* Header */}
-      <header style={styles.header}>
-        <h1 style={styles.title}>Yash's Bar</h1>
+      <header style={{
+        ...styles.header,
+        animation: !showHomepage ? 'fadeInDown 0.8s ease-out' : 'none',
+      }}>
+              <h1 style={styles.title}>Yash's Bar</h1>
         <p style={styles.subtitle}>
           {loading ? 'Loading recipes...' : `There are currently ${MY_COCKTAILS.length} drinks you can make`}
         </p>
       </header>
 
       {/* Navigation */}
-      <nav style={styles.nav}>
+      <nav style={{
+        ...styles.nav,
+        animation: !showHomepage ? 'fadeInDown 0.8s ease-out 0.1s both' : 'none',
+      }}>
         <div style={{
           background: view === 'cocktails' 
             ? 'linear-gradient(135deg, #ffd700, #fffacd, #ffd700)' 
@@ -2447,8 +2473,11 @@ return (
               </div>
             ) : (
               <>
-          <div style={styles.searchContainer}>
-            <div style={{
+          <div style={{
+            ...styles.searchContainer,
+            animation: !showHomepage ? 'fadeInDown 0.8s ease-out 0.2s both' : 'none',
+          }}>
+                      <div style={{
               width: '978px',
               background: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b)',
               borderRadius: '16px',
