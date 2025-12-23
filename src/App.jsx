@@ -1754,12 +1754,16 @@ export default function CocktailBar() {
   const [isFading, setIsFading] = useState(false);
   const [isExiting, setIsExiting] = useState(false);
   const [visibleCards, setVisibleCards] = useState(new Set());
+  const [justEnteredApp, setJustEnteredApp] = useState(false);
 
   const handleEnter = () => {
     setIsExiting(true);
     setTimeout(() => {
       setShowHomepage(false);
+      setJustEnteredApp(true);
       setIsExiting(false);
+      // Reset after animations complete
+      setTimeout(() => setJustEnteredApp(false), 2000);
     }, 1000);
   };
 
@@ -2034,9 +2038,9 @@ if (showHomepage) {
 
   return (
     
-    <div
-      onClick={() => setShowHomepage(false)}
-      style={{
+      <div
+        onClick={handleEnter}
+        style={{
         minHeight: '100vh',
         background: 'linear-gradient(180deg, #0a0a0a 0%, #1a1510 50%, #0d0d0d 100%)',
         display: 'flex',
@@ -2401,7 +2405,7 @@ return (
       {/* Header */}
       <header style={{
         ...styles.header,
-        animation: !showHomepage ? 'fadeInDown 0.8s ease-out' : 'none',
+        animation: justEnteredApp ? 'fadeInDown 0.8s ease-out' : 'none',
       }}>
               <h1 style={styles.title}>Yash's Bar</h1>
         <p style={styles.subtitle}>
@@ -2412,7 +2416,7 @@ return (
       {/* Navigation */}
       <nav style={{
         ...styles.nav,
-        animation: !showHomepage ? 'fadeInDown 0.8s ease-out 0.1s both' : 'none',
+        animation: justEnteredApp ? 'fadeInDown 0.8s ease-out 0.1s both' : 'none',
       }}>
         <div style={{
           background: view === 'cocktails' 
@@ -2487,9 +2491,9 @@ return (
               <>
           <div style={{
             ...styles.searchContainer,
-            animation: !showHomepage ? 'fadeInDown 0.8s ease-out 0.2s both' : 'none',
+            animation: justEnteredApp ? 'fadeInDown 0.8s ease-out 0.2s both' : 'none',
           }}>
-                      <div style={{
+                                  <div style={{
               width: '976px',
               background: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b)',
               borderRadius: '16px',
@@ -2970,7 +2974,7 @@ const styles = {
     padding: '12px 24px',
     fontSize: '0.95rem',
     cursor: 'pointer',
-    transition: 'all 0.3s ease',
+    transition: 'all 0.8s ease',
     fontFamily: "'Ubuntu', sans-serif",
     letterSpacing: '0.1em',
   },
@@ -2985,7 +2989,7 @@ const styles = {
     margin: '0 auto',
   },
   cocktailsView: {
-    animation: 'fadeIn 0.3s ease',
+    animation: 'fadeIn 0.8s ease',
   },
   searchInput: {
     flex: 1,
@@ -3126,7 +3130,7 @@ const styles = {
     borderRadius: '4px',
   },
   recipeDetail: {
-    animation: 'fadeIn 0.3s ease',
+    animation: 'fadeIn 0.8s ease',
   },
   recipeLayout: {
   display: 'flex',
@@ -3240,7 +3244,7 @@ const styles = {
     color: 'rgba(245, 240, 232, 0.85)',
   },
   inventoryView: {
-    animation: 'fadeIn 0.3s ease',
+    animation: 'fadeIn 0.8s ease',
   },
   addIngredientSection: {
     display: 'flex',
@@ -3309,7 +3313,7 @@ const styles = {
   addRecipeView: {
     maxWidth: '600px',
     margin: '0 auto',
-    animation: 'fadeIn 0.3s ease',
+    animation: 'fadeIn 0.8s ease',
   },
   formTitle: {
     fontSize: '1.8rem',
