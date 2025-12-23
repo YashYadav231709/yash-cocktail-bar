@@ -2144,6 +2144,12 @@ if (showHomepage) {
             transform: translateY(50px);
           }
         }
+        .search-input::placeholder {
+          color: rgba(255, 255, 255, 1) !important;
+        }
+        .search-input::-webkit-input-placeholder {
+          color: rgba(255, 255, 255, 1) !important;
+        }
         .glitter {
           position: absolute;
           background: #d4af37;
@@ -2328,7 +2334,13 @@ return (
             opacity: 1;
             transform: translateY(0);
           }
-        }        
+        }   
+        .search-input::placeholder {
+          color: rgba(255, 255, 255, 1) !important;
+        }
+        .search-input::-webkit-input-placeholder {
+          color: rgba(255, 255, 255, 1) !important;
+        }     
         .cocktail-card {
           position: relative;
           border-radius: 16px;
@@ -2478,13 +2490,15 @@ return (
             animation: !showHomepage ? 'fadeInDown 0.8s ease-out 0.2s both' : 'none',
           }}>
                       <div style={{
-              width: '978px',
+              width: '976px',
               background: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b)',
               borderRadius: '16px',
               padding: '2px',
+              color: '#fff'
             }}>
               <input
                 type="text"
+                className="search-input"
                 placeholder="Search cocktails or ingredients..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -2495,7 +2509,7 @@ return (
                   background: '#1a1a1a',
                   border: 'none',
                   borderRadius: '16px',
-                  color: '#f5f0e8',
+                  color: '#ffffffff',
                   fontFamily: "'Ubuntu', sans-serif",
                   outline: 'none',
                   boxSizing: 'border-box',
@@ -2521,7 +2535,7 @@ return (
                   fontFamily: "'Ubuntu', sans-serif",
                   outline: 'none',
                   cursor: 'pointer',
-                  minWidth: '290px',
+                  minWidth: '300px',
                   appearance: 'none',
                   WebkitAppearance: 'none',
                   backgroundImage: 'url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23d4af37\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3e%3cpolyline points=\'6 9 12 15 18 9\'%3e%3c/polyline%3e%3c/svg%3e")',
