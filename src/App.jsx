@@ -1298,7 +1298,7 @@ const MY_COCKTAILS = [
   "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
   "ingredients": [
     { "name": "Tequila", "measure": "37.5 ml" },
-    { "name": "Triple Sec", "measure": "22.5 ml" },
+    { "name": "Cointreau", "measure": "22.5 ml" },
     { "name": "Cranberry Juice", "measure": "30 ml" },
     { "name": "Lime Juice", "measure": "15 ml" }
   ],
@@ -1313,7 +1313,7 @@ const MY_COCKTAILS = [
   "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
   "ingredients": [
     { "name": "Tequila", "measure": "45 ml" },
-    { "name": "Triple Sec", "measure": "15 ml" },
+    { "name": "Cointreau", "measure": "15 ml" },
     { "name": "Pineapple Juice", "measure": "30 ml" },
     { "name": "Lime Juice", "measure": "15 ml" },
     { "name": "Grenadine", "measure": "10 ml" }
