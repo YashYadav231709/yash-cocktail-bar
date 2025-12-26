@@ -16,7 +16,6 @@ const MY_COCKTAILS = [
       { "name": "gin", "measure": "30 ml" },
       { "name": "tonic water", "measure": "120 ml" }
     ],
-    
   },
   {
     "id": "12560",
@@ -30,7 +29,6 @@ const MY_COCKTAILS = [
       { "name": "orange juice", "measure": "4 parts" },
       { "name": "pineapple juice", "measure": "4 parts" }
     ],
-    
   },
   {
     "id": "11288",
@@ -40,11 +38,10 @@ const MY_COCKTAILS = [
     "glass": "Highball glass",
     "instructions": "Build all ingredients in a Collins glass filled with ice. Garnish with lime wedge.",
     "ingredients": [
-      { "name": "Bacardi", "measure": "60 ml" },
-      { "name": "lime", "measure": "Juice of 1/2" },
+      { "name": "Bacardi", "measure": "120 ml" },
+      { "name": "lime", "measure": "Juice of 1" },
       { "name": "coca-cola", "measure": "" }
     ],
-    
   },
   {
     "id": "13206",
@@ -54,12 +51,11 @@ const MY_COCKTAILS = [
     "glass": "Collins Glass",
     "instructions": "Same as Caipirinha but instead of cachaca you add WHITE RUM. It's great!!!!!!!!",
     "ingredients": [
-      { "name": "lime", "measure": "2" },
-      { "name": "sugar", "measure": "2 tblsp" },
-      { "name": "white rum", "measure": "60-90 ml" },
+      { "name": "lime", "measure": "4" },
+      { "name": "sugar", "measure": "4 tblsp" },
+      { "name": "white rum", "measure": "120-180 ml" },
       { "name": "ice", "measure": "crushed" }
     ],
-    
   },
   {
     "id": "17196",
@@ -74,7 +70,6 @@ const MY_COCKTAILS = [
       { "name": "cointreau", "measure": "15 ml" },
       { "name": "cranberry juice", "measure": "60 ml" }
     ],
-    
   },
   {
     "id": "17108",
@@ -87,7 +82,6 @@ const MY_COCKTAILS = [
       { "name": "coca-cola", "measure": "100 ml" },
       { "name": "lemon juice", "measure": "7 drops" }
     ],
-    
   },
   {
     "id": "11006",
@@ -97,11 +91,10 @@ const MY_COCKTAILS = [
     "glass": "Cocktail glass",
     "instructions": "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.",
     "ingredients": [
-      { "name": "Bacardi", "measure": "45 ml" },
-      { "name": "lime", "measure": "Juice of 1/2" },
-      { "name": "sugar", "measure": "1 tsp" }
+      { "name": "Bacardi", "measure": "90 ml" },
+      { "name": "lime", "measure": "Juice of 1" },
+      { "name": "sugar", "measure": "2 tsp" }
     ],
-    
   },
   {
     "id": "11320",
@@ -115,7 +108,6 @@ const MY_COCKTAILS = [
       { "name": "ginger ale", "measure": "120 ml" },
       { "name": "lime", "measure": "1" }
     ],
-    
   },
   {
     "id": "11390",
@@ -125,12 +117,11 @@ const MY_COCKTAILS = [
     "glass": "Old-fashioned glass",
     "instructions": "Combine all ingredients with 1 cup of crushed ice in an electric blender. Blend at a low speed for a short length of time. Pour into an old-fashioned glass and serve.",
     "ingredients": [
-      { "name": "Bacardi", "measure": "60 ml" },
-      { "name": "lime juice", "measure": "1 tblsp" },
-      { "name": "mint", "measure": "6" },
-      { "name": "sugar", "measure": "1 tsp" }
+      { "name": "Bacardi", "measure": "120 ml" },
+      { "name": "lime juice", "measure": "2 tblsp" },
+      { "name": "mint", "measure": "12" },
+      { "name": "sugar", "measure": "2 tsp" }
     ],
-    
   },
   {
     "id": "11391",
@@ -145,7 +136,6 @@ const MY_COCKTAILS = [
       { "name": "lime juice", "measure": "1 tblsp" },
       { "name": "sugar", "measure": "1/2 tsp" }
     ],
-    
   },
   {
     "id": "17255",
@@ -160,7 +150,6 @@ const MY_COCKTAILS = [
       { "name": "sugar syrup", "measure": "15 ml" },
       { "name": "lime", "measure": "1" }
     ],
-    
   },
   {
     "id": "11410",
@@ -170,12 +159,11 @@ const MY_COCKTAILS = [
     "glass": "Highball glass",
     "instructions": "Shake all ingredients with ice cubes, except soda water. Pour into glass. Top with soda water.",
     "ingredients": [
-      { "name": "gin", "measure": "60 ml" },
-      { "name": "lemon", "measure": "Juice of 1/2" },
-      { "name": "sugar", "measure": "1 tsp" },
+      { "name": "gin", "measure": "120 ml" },
+      { "name": "lemon", "measure": "Juice of 1" },
+      { "name": "sugar", "measure": "2 tsp" },
       { "name": "soda water", "measure": "" }
     ],
-    
   },
   {
     "id": "11424",
@@ -185,10 +173,9 @@ const MY_COCKTAILS = [
     "glass": "Old-fashioned glass",
     "instructions": "Pour Vodka and amaretto into an old-fashioned glass over ice and serve.",
     "ingredients": [
-      { "name": "Vodka", "measure": "45 ml" },
-      { "name": "amaretto", "measure": "20 ml" }
+      { "name": "Vodka", "measure": "90 ml" },
+      { "name": "amaretto", "measure": "40 ml" }
     ],
-    
   },
   {
     "id": "11423",
@@ -198,10 +185,9 @@ const MY_COCKTAILS = [
     "glass": "Old-fashioned glass",
     "instructions": "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.",
     "ingredients": [
-      { "name": "scotch", "measure": "45 ml" },
-      { "name": "amaretto", "measure": "20 ml" }
+      { "name": "scotch", "measure": "90 ml" },
+      { "name": "amaretto", "measure": "40 ml" }
     ],
-    
   },
   {
     "id": "178365",
@@ -216,7 +202,6 @@ const MY_COCKTAILS = [
       { "name": "lemon", "measure": "1 Slice" },
       { "name": "ice", "measure": "cubes" }
     ],
-    
   },
   {
     "id": "178366",
@@ -231,7 +216,6 @@ const MY_COCKTAILS = [
       { "name": "lemon", "measure": "1 Slice" },
       { "name": "ice", "measure": "cubes" }
     ],
-    
   },
   {
     "id": "11415",
@@ -241,13 +225,12 @@ const MY_COCKTAILS = [
     "glass": "Old-fashioned glass",
     "instructions": "Dissolve sugar in mixture of water and juice of lemon. Add gin. Pour into an old-fashioned glass over ice cubes and stir. Add the twist of orange peel and serve.",
     "ingredients": [
-      { "name": "gin", "measure": "60 ml" },
-      { "name": "lemon", "measure": "Juice of 1/2" },
-      { "name": "sugar", "measure": "1 tsp" },
-      { "name": "water", "measure": "1 tsp" },
+      { "name": "gin", "measure": "120 ml" },
+      { "name": "lemon", "measure": "Juice of 1" },
+      { "name": "sugar", "measure": "2 tsp" },
+      { "name": "water", "measure": "2 tsp" },
       { "name": "orange", "measure": "Twist of peel" }
     ],
-    
   },
   {
     "id": "17230",
@@ -257,13 +240,12 @@ const MY_COCKTAILS = [
     "glass": "Highball glass",
     "instructions": "Half-fill a tall glass with ice. Mix the gin and Grenadine together and pour over the ice. Add the lime or lemon juice and top off with soda water.",
     "ingredients": [
-      { "name": "gin", "measure": "60 ml" },
-      { "name": "grenadine", "measure": "1 tsp" },
-      { "name": "lemon", "measure": "Juice of 1/2" },
+      { "name": "gin", "measure": "120 ml" },
+      { "name": "grenadine", "measure": "2 tsp" },
+      { "name": "lemon", "measure": "Juice of 1" },
       { "name": "soda water", "measure": "Top up" },
       { "name": "lime", "measure": "Garnish" }
     ],
-    
   },
   {
     "id": "11407",
@@ -273,11 +255,10 @@ const MY_COCKTAILS = [
     "glass": "Collins glass",
     "instructions": "Stir sugar and soda water in a collins glass. Fill glass with ice and add gin. Fill with soda water and stir. Add the lemon peel and the orange spiral.",
     "ingredients": [
-      { "name": "gin", "measure": "60 ml" },
+      { "name": "gin", "measure": "120 ml" },
       { "name": "soda water", "measure": "Top off" },
-      { "name": "sugar Syrup", "measure": "15 ml" },
+      { "name": "sugar Syrup", "measure": "30 ml" },
     ],
-    
   },
   {
     "id": "11433",
@@ -293,7 +274,6 @@ const MY_COCKTAILS = [
       { "name": "grenadine", "measure": "1/2 tsp" },
       { "name": "pineapple", "measure": "1 slice" }
     ],
-    
   },
   {
     "id": "178342",
@@ -307,7 +287,6 @@ const MY_COCKTAILS = [
       { "name": "soda water", "measure": "150 ml" },
       { "name": "lime", "measure": "1/4" }
     ],
-    
   },
   {
     "id": "178316",
@@ -321,7 +300,6 @@ const MY_COCKTAILS = [
       { "name": "honey", "measure": "20 ml" },
       { "name": "lemon juice", "measure": "20 ml" }
     ],
-    
   },
   {
     "id": "11470",
@@ -331,11 +309,10 @@ const MY_COCKTAILS = [
     "glass": "Cocktail glass",
     "instructions": "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
     "ingredients": [
-      { "name": "Bacardi", "measure": "30 ml" },
-      { "name": "pineapple juice", "measure": "30 ml" },
-      { "name": "lemon juice", "measure": "1 tsp" }
+      { "name": "Bacardi", "measure": "60 ml" },
+      { "name": "pineapple juice", "measure": "60 ml" },
+      { "name": "lemon juice", "measure": "2 tsp" }
     ],
-    
   },
   {
     "id": "11472",
@@ -345,11 +322,10 @@ const MY_COCKTAILS = [
     "glass": "Cocktail glass",
     "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
     "ingredients": [
-      { "name": "gin", "measure": "60 ml" },
-      { "name": "Cointreau", "measure": "15 ml" },
-      { "name": "pineapple juice", "measure": "1 tblsp" }
+      { "name": "gin", "measure": "120 ml" },
+      { "name": "Cointreau", "measure": "30 ml" },
+      { "name": "pineapple juice", "measure": "2 tblsp" }
     ],
-    
   },
   {
     "id": "11524",
@@ -359,13 +335,12 @@ const MY_COCKTAILS = [
     "glass": "Highball glass",
     "instructions": "Shake all ingredients (except soda water) with ice and strain into a highball glass over two ice cubes. Fill with soda water, stir, and serve.",
     "ingredients": [
-      { "name": "Bacardi", "measure": "15 ml" },
-      { "name": "whiskey", "measure": "45 ml" },
-      { "name": "lemon", "measure": "Juice of 1/2" },
-      { "name": "sugar", "measure": "1 tsp" },
+      { "name": "Bacardi", "measure": "30 ml" },
+      { "name": "whiskey", "measure": "90 ml" },
+      { "name": "lemon", "measure": "Juice of 1" },
+      { "name": "sugar", "measure": "2 tsp" },
       { "name": "soda water", "measure": "" }
     ],
-    
   },
   {
     "id": "16178",
@@ -383,21 +358,19 @@ const MY_COCKTAILS = [
       { "name": "sugar syrup", "measure": "3 dashes" },
       { "name": "soda water", "measure": "Top up" }
     ],
-    
   },
   {
     "id": "11600",
     "name": "Kamikaze",
     "category": "shot",
     "image": "https://www.thecocktaildb.com/images/media/drink/d7ff7u1606855412.jpg",
-    "glass": "Cocktail glass",
+    "glass": "Shot glass",
     "instructions": "Shake all ingredients together with ice. Strain into glass, garnish and serve.",
     "ingredients": [
-      { "name": "Vodka", "measure": "30 ml" },
-      { "name": "Cointreau", "measure": "30 ml" },
-      { "name": "lime juice", "measure": "30 ml" }
+      { "name": "Vodka", "measure": "17 ml" },
+      { "name": "Cointreau", "measure": "17 ml" },
+      { "name": "lime juice", "measure": "16 ml" }
     ],
-    
   },
   {
     "id": "12720",
@@ -411,7 +384,6 @@ const MY_COCKTAILS = [
       { "name": "lemon", "measure": "1/4" },
       { "name": "water", "measure": "1 cup hot" }
     ],
-    
   },
   {
     "id": "12704",
@@ -425,38 +397,19 @@ const MY_COCKTAILS = [
       { "name": "sugar", "measure": "1 tblsp" },
       { "name": "soda water", "measure": "Top up" }
     ],
-    
   },
   {
     "id": "14366",
     "name": "Lemon Drop",
     "category": "shot",
     "image": "https://www.thecocktaildb.com/images/media/drink/mtpxgk1504373297.jpg",
-    "glass": "Cocktail glass",
-    "instructions": "Shake and strain into a chilled cocktail glass rimmed with sugar.",
+    "glass": "Shot glass",
+    "instructions": "Shake and strain into a chilled shot glass rimmed with sugar.",
     "ingredients": [
-      { "name": "Vodka", "measure": "45 ml" },
-      { "name": "cointreau", "measure": "45 ml" },
-      { "name": "lemon", "measure": "Juice of 1 wedge" }
+      { "name": "Vodka", "measure": "25 ml" },
+      { "name": "cointreau", "measure": "25 ml" },
+      { "name": "lemon", "measure": "Splash of juice" }
     ],
-    
-  },
-  {
-    "id": "11002",
-    "name": "Long Island Tea",
-    "category": "cocktail",
-    "image": "https://www.thecocktaildb.com/images/media/drink/nkwr4c1606770558.jpg",
-    "glass": "Highball glass",
-    "instructions": "Combine all ingredients (except cola) and pour over ice in a highball glass. Add the splash of cola for color. Decorate with a slice of lemon and serve.",
-    "ingredients": [
-      { "name": "Vodka", "measure": "15 ml" },
-      { "name": "Bacardi", "measure": "15 ml" },
-      { "name": "gin", "measure": "15 ml" },
-      { "name": "tequila", "measure": "15 ml" },
-      { "name": "lemon", "measure": "Juice of 1/2" },
-      { "name": "coca-cola", "measure": "1 splash" }
-    ],
-    
   },
   {
     "id": "17204",
@@ -466,14 +419,13 @@ const MY_COCKTAILS = [
     "glass": "Highball glass",
     "instructions": "Mix all contents in a highball glass and stir gently. Add dash of Coca-Cola for the coloring and garnish with lemon or lime twist.",
     "ingredients": [
-      { "name": "Vodka", "measure": "15 ml" },
-      { "name": "tequila", "measure": "15 ml" },
-      { "name": "Bacardi", "measure": "15 ml" },
-      { "name": "gin", "measure": "15 ml" },
+      { "name": "Vodka", "measure": "30 ml" },
+      { "name": "tequila", "measure": "30 ml" },
+      { "name": "Bacardi", "measure": "30 ml" },
+      { "name": "gin", "measure": "30 ml" },
       { "name": "coca-cola", "measure": "1 dash" },
       { "name": "lemon", "measure": "Twist of peel" }
     ],
-    
   },
   {
     "id": "11000",
@@ -483,13 +435,12 @@ const MY_COCKTAILS = [
     "glass": "Highball glass",
     "instructions": "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.",
     "ingredients": [
-      { "name": "Bacardi", "measure": "60-90 ml" },
-      { "name": "lime", "measure": "Juice of 1" },
-      { "name": "sugar", "measure": "2 tsp" },
-      { "name": "mint", "measure": "2-4 sprigs" },
+      { "name": "Bacardi", "measure": "120-180 ml" },
+      { "name": "lime", "measure": "Juice of 2" },
+      { "name": "sugar", "measure": "4 tsp" },
+      { "name": "mint", "measure": "4-8 sprigs" },
       { "name": "soda water", "measure": "" }
     ],
-    
   },
   {
     "id": "11007",
@@ -499,12 +450,11 @@ const MY_COCKTAILS = [
     "glass": "Cocktail glass",
     "instructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Shake the other ingredients with ice, then carefully pour into the glass.",
     "ingredients": [
-      { "name": "tequila", "measure": "45 ml" },
-      { "name": "Cointreau", "measure": "15 ml" },
-      { "name": "lime juice", "measure": "30 ml" },
+      { "name": "tequila", "measure": "90 ml" },
+      { "name": "Cointreau", "measure": "30 ml" },
+      { "name": "lime juice", "measure": "60 ml" },
       { "name": "salt", "measure": "for rim" }
     ],
-    
   },
   {
     "id": "11009",
@@ -518,7 +468,6 @@ const MY_COCKTAILS = [
       { "name": "lime juice", "measure": "60 ml" },
       { "name": "ginger ale", "measure": "240 ml" }
     ],
-    
   },
   {
     "id": "178358",
@@ -535,7 +484,6 @@ const MY_COCKTAILS = [
       { "name": "ice", "measure": "cubes" },
       { "name": "soda water", "measure": "Top" }
     ],
-    
   },
   {
     "id": "12618",
@@ -550,7 +498,6 @@ const MY_COCKTAILS = [
       { "name": "sugar syrup", "measure": "20 ml" },
       { "name": "soda water", "measure": "" }
     ],
-    
   },
   {
     "id": "15330",
@@ -558,13 +505,12 @@ const MY_COCKTAILS = [
     "category": "shot",
     "image": "https://www.thecocktaildb.com/images/media/drink/zvoics1504885926.jpg",
     "glass": "Shot glass",
-    "instructions": "(2 Shots) Add all ingredients to tumbler - Pour as shot",
+    "instructions": "Add all ingredients to tumbler - Pour as shot",
     "ingredients": [
-      { "name": "Vodka", "measure": "30 ml" },
-      { "name": "Cointreau", "measure": "30 ml" },
-      { "name": "orange juice", "measure": "30 ml" }
+      { "name": "Vodka", "measure": "17 ml" },
+      { "name": "Cointreau", "measure": "17 ml" },
+      { "name": "orange juice", "measure": "16 ml" }
     ],
-    
   },
   {
     "id": "15092",
@@ -579,7 +525,6 @@ const MY_COCKTAILS = [
       { "name": "pineapple juice", "measure": "1 part" },
       { "name": "ice", "measure": "" }
     ],
-    
   },
   {
     "id": "12718",
@@ -592,7 +537,6 @@ const MY_COCKTAILS = [
       { "name": "ginger", "measure": "1/4 inch" },
       { "name": "pineapple", "measure": "1/2" }
     ],
-    
   },
   {
     "id": "12097",
@@ -602,12 +546,11 @@ const MY_COCKTAILS = [
     "glass": "Old-fashioned glass",
     "instructions": "Dissolve sugar in water in an old-fashioned glass. Add rum and one ice cube and stir. Add the twist of lemon peel and serve.",
     "ingredients": [
-      { "name": "Bacardi", "measure": "60 ml" },
-      { "name": "sugar", "measure": "2 tsp" },
-      { "name": "lemon", "measure": "1 twist of peel" },
-      { "name": "water", "measure": "2 tsp" }
+      { "name": "Bacardi", "measure": "120 ml" },
+      { "name": "sugar", "measure": "4 tsp" },
+      { "name": "lemon", "measure": "2 twists of peel" },
+      { "name": "water", "measure": "4 tsp" }
     ],
-    
   },
   {
     "id": "12071",
@@ -621,7 +564,6 @@ const MY_COCKTAILS = [
       { "name": "sprite", "measure": "120 ml" },
       { "name": "lemon", "measure": "1 wedge" }
     ],
-    
   },
   {
     "id": "17114",
@@ -635,7 +577,6 @@ const MY_COCKTAILS = [
       { "name": "cranberry juice", "measure": "150 ml" },
       { "name": "grenadine", "measure": "2 splashes" }
     ],
-    
   },
   {
     "id": "12630",
@@ -649,7 +590,6 @@ const MY_COCKTAILS = [
       { "name": "lemon juice", "measure": "" },
       { "name": "ginger ale", "measure": "" }
     ],
-    
   },
   {
     "id": "12091",
@@ -662,7 +602,6 @@ const MY_COCKTAILS = [
       { "name": "Bacardi", "measure": "45 ml" },
       { "name": "orange juice", "measure": "150 ml" }
     ],
-    
   },
   {
     "id": "12162",
@@ -675,7 +614,6 @@ const MY_COCKTAILS = [
       { "name": "Vodka", "measure": "45 ml" },
       { "name": "orange juice", "measure": "120 ml" }
     ],
-    
   },
   {
     "id": "178307",
@@ -685,10 +623,9 @@ const MY_COCKTAILS = [
     "glass": "Shot glass",
     "instructions": "Mix carefully to avoid releasing the dissolved CO2.",
     "ingredients": [
-      { "name": "tequila", "measure": "1 shot" },
-      { "name": "7-up", "measure": "1 part" }
+      { "name": "tequila", "measure": "25 ml" },
+      { "name": "7-up", "measure": "25 ml" }
     ],
-    
   },
   {
     "id": "13621",
@@ -702,7 +639,6 @@ const MY_COCKTAILS = [
       { "name": "orange juice", "measure": "120 ml" },
       { "name": "grenadine", "measure": "15 ml" }
     ],
-    
   },
   {
     "id": "178363",
@@ -717,7 +653,6 @@ const MY_COCKTAILS = [
       { "name": "lemon", "measure": "1 Slice" },
       { "name": "ice", "measure": "cubes" }
     ],
-    
   },
   {
     "id": "178362",
@@ -731,7 +666,6 @@ const MY_COCKTAILS = [
       { "name": "lime juice", "measure": "15 ml" },
       { "name": "Vodka", "measure": "45 ml" }
     ],
-    
   },
   {
     "id": "178364",
@@ -745,20 +679,6 @@ const MY_COCKTAILS = [
       { "name": "tonic water", "measure": "100 ml" },
       { "name": "lemon", "measure": "1 Slice" }
     ],
-    
-  },
-  {
-    "id": "12460",
-    "name": "Vodka And Tonic",
-    "category": "cocktail",
-    "image": "https://www.thecocktaildb.com/images/media/drink/lmj2yt1504820500.jpg",
-    "glass": "Highball glass",
-    "instructions": "Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve.",
-    "ingredients": [
-      { "name": "Vodka", "measure": "60 ml" },
-      { "name": "tonic water", "measure": "" }
-    ],
-    
   },
   {
     "id": "17194",
@@ -768,11 +688,10 @@ const MY_COCKTAILS = [
     "glass": "Cocktail glass",
     "instructions": "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into large cocktail glass.",
     "ingredients": [
-      { "name": "gin", "measure": "40 ml" },
-      { "name": "Cointreau", "measure": "30 ml" },
-      { "name": "lemon juice", "measure": "20 ml" }
+      { "name": "gin", "measure": "80 ml" },
+      { "name": "Cointreau", "measure": "60 ml" },
+      { "name": "lemon juice", "measure": "40 ml" }
     ],
-    
   },
   {
     "id": "12474",
@@ -782,11 +701,10 @@ const MY_COCKTAILS = [
     "glass": "Cocktail glass",
     "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
     "ingredients": [
-      { "name": "Cointreau", "measure": "20 ml" },
-      { "name": "gin", "measure": "20 ml" },
-      { "name": "pineapple juice", "measure": "1 tblsp" }
+      { "name": "Cointreau", "measure": "40 ml" },
+      { "name": "gin", "measure": "40 ml" },
+      { "name": "pineapple juice", "measure": "2 tblsp" }
     ],
-    
   },
   {
     "id": "14594",
@@ -796,868 +714,797 @@ const MY_COCKTAILS = [
     "glass": "Margarita/Coupette glass",
     "instructions": "Pour Cointreau on ice, add fresh lemon juice, stir gently, and add slices of lemon/lime in glass.",
     "ingredients": [
-      { "name": "cointreau", "measure": "50 ml" },
-      { "name": "lemon juice", "measure": "20 ml" },
+      { "name": "cointreau", "measure": "100 ml" },
+      { "name": "lemon juice", "measure": "40 ml" },
       { "name": "ice", "measure": "cubes" },
       { "name": "lemon", "measure": "slices" }
     ],
-    
   },
   {
-  "id": "custom-1",
-  "name": "Daqui-rye",
-  "category": "cocktail",
-  "image": "https://www.belvederevodka.com/static/44eb2eb2ceecff4e4e10ee5e864448c4/0df34/cocktail-the-zesty-one-daiqui-rye.webp",
-  "glass": "Coupette",
-  "instructions": "Add all ingredients to cocktail shaker and shake over cubed ice. Fine strain into chilled coupette. Garnish with a lime zest.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "50 ml" },
-    { "name": "Lemon Juice", "measure": "20 ml" },
-    { "name": "Sugar Syrup", "measure": "10 ml" }
-  ],
-  
+    "id": "custom-1",
+    "name": "Daqui-rye",
+    "category": "cocktail",
+    "image": "https://www.belvederevodka.com/static/44eb2eb2ceecff4e4e10ee5e864448c4/0df34/cocktail-the-zesty-one-daiqui-rye.webp",
+    "glass": "Coupette",
+    "instructions": "Add all ingredients to cocktail shaker and shake over cubed ice. Fine strain into chilled coupette. Garnish with a lime zest.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "100 ml" },
+      { "name": "Lemon Juice", "measure": "40 ml" },
+      { "name": "Sugar Syrup", "measure": "20 ml" }
+    ],
   },
   {
-  "id": "custom-2",
-  "name": "French Martini Shot",
-  "category": "shot",
-  "image": "https://www.belvederevodka.com/static/c64f7794cc5942188e1b57f478cb850d/0df34/cocktail_the_cheeky_one.webp",
-  "glass": "Shot Glass",
-  "instructions": "(4 Shots) Add all ingredients to cocktail shaker and shake over cubed ice. Fine strain into chilled shot glasses.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "40 ml" },
-    { "name": "Bacardi Razz", "measure": "10 ml" },
-    { "name": "Pineapple Juice", "measure": "45 ml" }
-  ],
-  
+    "id": "custom-2",
+    "name": "French Martini Shot",
+    "category": "shot",
+    "image": "https://www.belvederevodka.com/static/c64f7794cc5942188e1b57f478cb850d/0df34/cocktail_the_cheeky_one.webp",
+    "glass": "Shot Glass",
+    "instructions": "(4 Shots) Add all ingredients to cocktail shaker and shake over cubed ice. Fine strain into chilled shot glasses.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "21 ml" },
+      { "name": "Bacardi Razz", "measure": "5 ml" },
+      { "name": "Pineapple Juice", "measure": "24 ml" }
+    ],
   },
   {
-  "id": "custom-3",
-  "name": "Matador",
-  "category": "cocktail",
-  "image": "https://www.thebottleclub.com/cdn/shop/articles/TBC_recipe_image_63-348330.jpg?v=1707229863",
-  "glass": "Long Glass",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled long glass.",
-  "ingredients": [
-    { "name": "Tequila", "measure": "90 ml" },
-    { "name": "Lime Juice", "measure": "30 ml" },
-    { "name": "Pineapple Juice", "measure": "90 ml" }
-  ],
-  
+    "id": "custom-3",
+    "name": "Matador",
+    "category": "cocktail",
+    "image": "https://www.thebottleclub.com/cdn/shop/articles/TBC_recipe_image_63-348330.jpg?v=1707229863",
+    "glass": "Long Glass",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled long glass.",
+    "ingredients": [
+      { "name": "Tequila", "measure": "90 ml" },
+      { "name": "Lime Juice", "measure": "30 ml" },
+      { "name": "Pineapple Juice", "measure": "90 ml" }
+    ],
   },
   {
-  "id": "custom-4",
-  "name": "Passion Fruit Margarita",
-  "category": "cocktail",
-  "image": "https://braziliankitchenabroad.com/wp-content/uploads/2023/03/Passion-Fruit-Margarita-3-1074x1536.jpg",
-  "glass": "Tumbler",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled tumbler.",
-  "ingredients": [
-    { "name": "Tequila", "measure": "30 ml" },
-    { "name": "Bacardi Razz", "measure": "15 ml" },
-    { "name": "Cointreau", "measure": "15 ml" },
-    { "name": "Passion Fruit Juice", "measure": "30 ml" }
-  ],
-  
+    "id": "custom-4",
+    "name": "Passion Fruit Margarita",
+    "category": "cocktail",
+    "image": "https://braziliankitchenabroad.com/wp-content/uploads/2023/03/Passion-Fruit-Margarita-3-1074x1536.jpg",
+    "glass": "Tumbler",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled tumbler.",
+    "ingredients": [
+      { "name": "Tequila", "measure": "60 ml" },
+      { "name": "Bacardi Razz", "measure": "30 ml" },
+      { "name": "Cointreau", "measure": "30 ml" },
+      { "name": "Passion Fruit Juice", "measure": "60 ml" }
+    ],
   },
   {
-  "id": "custom-5",
-  "name": "Vodka Margarita",
-  "category": "cocktail",
-  "image": "https://www.amsterdamrepublic.com/wp-content/uploads/2022/02/vodkamargarita2-1620.jpg",
-  "glass": "Martini Glass",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled martini glass.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "45 ml" },
-    { "name": "Lime Juice", "measure": "30 ml" },
-    { "name": "Cointreau", "measure": "15 ml" }
-  ],
-  
+    "id": "custom-5",
+    "name": "Vodka Margarita",
+    "category": "cocktail",
+    "image": "https://www.amsterdamrepublic.com/wp-content/uploads/2022/02/vodkamargarita2-1620.jpg",
+    "glass": "Martini Glass",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled martini glass.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "90 ml" },
+      { "name": "Lime Juice", "measure": "60 ml" },
+      { "name": "Cointreau", "measure": "30 ml" }
+    ],
   },
   {
-  "id": "custom-6",
-  "name": "Amaretto Sour",
-  "category": "cocktail",
-  "image": "https://storage.googleapis.com/thepourtest.appspot.com/recipes/lFMkI3epgxqMfcigFmCL/76580E74-FF13-477D-9E9E-5E82F46A4758_1200x1200.jpeg",
-  "glass": "Tumbler",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled tumbler.",
-  "ingredients": [
-    { "name": "Amaretto", "measure": "60 ml" },
-    { "name": "Lemon Juice", "measure": "30 ml" }
-  ],
-  
+    "id": "custom-6",
+    "name": "Amaretto Sour",
+    "category": "cocktail",
+    "image": "https://storage.googleapis.com/thepourtest.appspot.com/recipes/lFMkI3epgxqMfcigFmCL/76580E74-FF13-477D-9E9E-5E82F46A4758_1200x1200.jpeg",
+    "glass": "Tumbler",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled tumbler.",
+    "ingredients": [
+      { "name": "Amaretto", "measure": "120 ml" },
+      { "name": "Lemon Juice", "measure": "60 ml" }
+    ],
   },
   {
-  "id": "custom-7",
-  "name": "Tequila Blue",
-  "category": "shot",
-  "image": "https://c8.alamy.com/comp/2WFN3N4/shooter-in-shot-glass-isolated-on-white-alcohol-drink-2WFN3N4.jpg",
-  "glass": "Shot Glass",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a shot glass.",
-  "ingredients": [
-    { "name": "Blue Curacao", "measure": "25 ml" },
-    { "name": "Tequila", "measure": "25 ml" }
-  ],
-  
+    "id": "custom-7",
+    "name": "Tequila Blue",
+    "category": "shot",
+    "image": "https://c8.alamy.com/comp/2WFN3N4/shooter-in-shot-glass-isolated-on-white-alcohol-drink-2WFN3N4.jpg",
+    "glass": "Shot Glass",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a shot glass.",
+    "ingredients": [
+      { "name": "Blue Curacao", "measure": "25 ml" },
+      { "name": "Tequila", "measure": "25 ml" }
+    ],
   },
   {
-  "id": "custom-8",
-  "name": "Undertaker",
-  "category": "shot",
-  "image": "https://cdn.diffordsguide.com/cocktail/AMQvlA/default/0/512x.webp?v=1737701586",
-  "glass": "Shot Glass",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a shot glass.",
-  "ingredients": [
-    { "name": "Jägermeister", "measure": "15 ml" },
-    { "name": "Bacardi", "measure": "15 ml" },
-    { "name": "Cointreau", "measure": "15 ml" }
-  ],
-  
+    "id": "custom-8",
+    "name": "Undertaker",
+    "category": "shot",
+    "image": "https://cdn.diffordsguide.com/cocktail/AMQvlA/default/0/512x.webp?v=1737701586",
+    "glass": "Shot Glass",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a shot glass.",
+    "ingredients": [
+      { "name": "Jägermeister", "measure": "17 ml" },
+      { "name": "Bacardi", "measure": "17 ml" },
+      { "name": "Cointreau", "measure": "16 ml" }
+    ],
   },
   {
-  "id": "custom-9",
-  "name": "Blue Lagoon",
-  "category": "cocktail",
-  "image": "https://www.gall.nl/dw/image/v2/BCLJ_PRD/on/demandware.static/-/Sites-gall-nl-Library/default/dw8d0ebf8d/2024/Content/Cocktails/Cocktail%20Blue%20lagoon%20header.jpg?sw=2560&q=95",
-  "glass": "Hurricane Glass",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a shot glass.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "60 ml" },
-    { "name": "Blue Curacao", "measure": "45 ml" },
-    { "name": "Lime Juice", "measure": "15 ml" },
-    { "name": "Sprite", "measure": "Top off" }
-  ],
-  
+    "id": "custom-9",
+    "name": "Blue Lagoon",
+    "category": "cocktail",
+    "image": "https://www.gall.nl/dw/image/v2/BCLJ_PRD/on/demandware.static/-/Sites-gall-nl-Library/default/dw8d0ebf8d/2024/Content/Cocktails/Cocktail%20Blue%20lagoon%20header.jpg?sw=2560&q=95",
+    "glass": "Hurricane Glass",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a hurricane glass.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "60 ml" },
+      { "name": "Blue Curacao", "measure": "45 ml" },
+      { "name": "Lime Juice", "measure": "15 ml" },
+      { "name": "Sprite", "measure": "Top off" }
+    ],
   },
   {
-  "id": "custom-10",
-  "name": "Razz Mojito",
-  "category": "cocktail",
-  "image": "https://assets.bacardicontenthub.com/transform/4c08080b-de6d-4de6-8866-dd044c2341c4/FY21_US_Bacardi_Hero-Cocktail_Marketing_Asset_Raspberry-Mojito_PKX-tiff?io=transform:fit,width:1800,height:1350&format=webp&quality=75",
-  "glass": "Hurricane Glass",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a shot glass.",
-  "ingredients": [
-    { "name": "Bacardi Razz", "measure": "50 ml" },
-    { "name": "Sugar Syrup", "measure": "15 ml" },
-    { "name": "Lime Juice", "measure": "30 ml" },
-    { "name": "Spa Rood", "measure": "Top off" }
-  ],
-  
+    "id": "custom-10",
+    "name": "Razz Mojito",
+    "category": "cocktail",
+    "image": "https://assets.bacardicontenthub.com/transform/4c08080b-de6d-4de6-8866-dd044c2341c4/FY21_US_Bacardi_Hero-Cocktail_Marketing_Asset_Raspberry-Mojito_PKX-tiff?io=transform:fit,width:1800,height:1350&format=webp&quality=75",
+    "glass": "Hurricane Glass",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a hurricane glass.",
+    "ingredients": [
+      { "name": "Bacardi Razz", "measure": "100 ml" },
+      { "name": "Sugar Syrup", "measure": "30 ml" },
+      { "name": "Lime Juice", "measure": "60 ml" },
+      { "name": "Spa Rood", "measure": "Top off" }
+    ],
   },
   {
-  "id": "custom-11",
-  "name": "Cos-Glow",
-  "category": "cocktail",
-  "image": "https://www.cointreau.com/int/en/sites/int/files/styles/cocktail_image_l/public/cocktail-images/C0318-cos-glow.jpg.webp?itok=I0kICjze",
-  "glass": "Margarita Glass",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled margarita glass.",
-  "ingredients": [
-    { "name": "Cointreau", "measure": "20 ml" },
-    { "name": "Vodka", "measure": "60 ml" },
-    { "name": "Lime Juice", "measure": "20 ml" }
-  ],
-  
+    "id": "custom-11",
+    "name": "Cos-Glow",
+    "category": "cocktail",
+    "image": "https://www.cointreau.com/int/en/sites/int/files/styles/cocktail_image_l/public/cocktail-images/C0318-cos-glow.jpg.webp?itok=I0kICjze",
+    "glass": "Margarita Glass",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled margarita glass.",
+    "ingredients": [
+      { "name": "Cointreau", "measure": "20 ml" },
+      { "name": "Vodka", "measure": "60 ml" },
+      { "name": "Lime Juice", "measure": "20 ml" }
+    ],
   },
   {
-  "id": "custom-12",
-  "name": "Koi-Yellow",
-  "category": "cocktail",
-  "image": "https://www.cointreau.com/int/en/sites/int/files/styles/cocktail_image_l/public/cocktail-images/C0214-koi-yellow.jpg.webp?itok=0iwT5v9f",
-  "glass": "Tumbler",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled tumbler glass.",
-  "ingredients": [
-    { "name": "Cointreau", "measure": "15 ml" },
-    { "name": "Bacardi Razz", "measure": "60 ml" },
-    { "name": "Lime Juice", "measure": "30 ml" },
-    { "name": "Sugar Syrup", "measure": "15 ml" }
-  ],
-  
+    "id": "custom-12",
+    "name": "Koi-Yellow",
+    "category": "cocktail",
+    "image": "https://www.cointreau.com/int/en/sites/int/files/styles/cocktail_image_l/public/cocktail-images/C0214-koi-yellow.jpg.webp?itok=0iwT5v9f",
+    "glass": "Tumbler",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled tumbler glass.",
+    "ingredients": [
+      { "name": "Cointreau", "measure": "15 ml" },
+      { "name": "Bacardi Razz", "measure": "60 ml" },
+      { "name": "Lime Juice", "measure": "30 ml" },
+      { "name": "Sugar Syrup", "measure": "15 ml" }
+    ],
   },
   {
-  "id": "custom-13",
-  "name": "Bunny Mother",
-  "category": "cocktail",
-  "image": "https://www.cointreau.com/int/en/sites/int/files/styles/cocktail_image_l/public/cocktail-images/C0056-bunny-mother.jpg.webp?itok=WLts7BP0",
-  "glass": "Tumbler",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled tumbler glass.",
-  "ingredients": [
-    { "name": "Cointreau", "measure": "5 ml" },
-    { "name": "Grenadine Syrup", "measure": "5 ml" },
-    { "name": "Orange Juice", "measure": "30 ml" },
-    { "name": "Vodka", "measure": "45 ml" },
-    { "name": "Sugar Syrup", "measure": "15 ml" }
-  ],
-  
+    "id": "custom-13",
+    "name": "Bunny Mother",
+    "category": "cocktail",
+    "image": "https://www.cointreau.com/int/en/sites/int/files/styles/cocktail_image_l/public/cocktail-images/C0056-bunny-mother.jpg.webp?itok=WLts7BP0",
+    "glass": "Tumbler",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled tumbler glass.",
+    "ingredients": [
+      { "name": "Cointreau", "measure": "5 ml" },
+      { "name": "Grenadine Syrup", "measure": "5 ml" },
+      { "name": "Orange Juice", "measure": "30 ml" },
+      { "name": "Vodka", "measure": "45 ml" },
+      { "name": "Sugar Syrup", "measure": "15 ml" }
+    ],
   },
   {
-  "id": "custom-14",
-  "name": "Aku Aku",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/VRjq0O/default/0/512x.webp?v=1737701573",
-  "glass": "Coupe Glass",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled coupe glass.",
-  "ingredients": [
-    { "name": "Bacardi", "measure": "30 ml" },
-    { "name": "Peach Schnapps", "measure": "15 ml" },
-    { "name": "Pineapple Juice", "measure": "45 ml" },
-    { "name": "Lime Juice", "measure": "30 ml" },
-    { "name": "Sugar Syrup", "measure": "15 ml" }
-  ],
-  
+    "id": "custom-14",
+    "name": "Aku Aku",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/VRjq0O/default/0/512x.webp?v=1737701573",
+    "glass": "Coupe Glass",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled coupe glass.",
+    "ingredients": [
+      { "name": "Bacardi", "measure": "30 ml" },
+      { "name": "Peach Schnapps", "measure": "15 ml" },
+      { "name": "Pineapple Juice", "measure": "45 ml" },
+      { "name": "Lime Juice", "measure": "30 ml" },
+      { "name": "Sugar Syrup", "measure": "15 ml" }
+    ],
   },
   {
-  "id": "custom-15",
-  "name": "Bermuda",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/MOXGar/default/0/512x.webp?v=1737701573",
-  "glass": "Coupe Glass",
-  "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled coupe glass.",
-  "ingredients": [
-    { "name": "Gin", "measure": "60 ml" },
-    { "name": "Peach Schnapps", "measure": "15 ml" },
-    { "name": "Orange Juice", "measure": "15 ml" },
-    { "name": "Grenadine Syrup", "measure": "10 ml" }
-  ],
-  
+    "id": "custom-15",
+    "name": "Bermuda",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/MOXGar/default/0/512x.webp?v=1737701573",
+    "glass": "Coupe Glass",
+    "instructions": "Fill a shaker with ice, add all ingredients and shake well. Strain into a chilled coupe glass.",
+    "ingredients": [
+      { "name": "Gin", "measure": "60 ml" },
+      { "name": "Peach Schnapps", "measure": "15 ml" },
+      { "name": "Orange Juice", "measure": "15 ml" },
+      { "name": "Grenadine Syrup", "measure": "10 ml" }
+    ],
   },
   {
-  "id": "custom-16",
-  "name": "Fizzy Peach",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/OdyzwR/default/0/512x.webp?v=1737701601",
-  "glass": "Highball glass",
-  "instructions": "Build in glass over ice. Stir gently.",
-  "ingredients": [
-    { "name": "Peach Schnapps", "measure": "40 ml" },
-    { "name": "Lime Juice", "measure": "10 ml" },
-    { "name": "Soda Water", "measure": "100 ml" }
-  ],
-  
-},
-{
-  "id": "custom-17",
-  "name": "Hairy Navel",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/reGXaR/default/0/512x.webp?v=1737701598",
-  "glass": "Highball glass",
-  "instructions": "Build in glass over ice. Stir gently.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "45 ml" },
-    { "name": "Peach Schnapps", "measure": "30 ml" },
-    { "name": "Orange Juice", "measure": "105 ml" }
-  ],
-  
-},
-{
-  "id": "custom-18",
-  "name": "Iguana Wana",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/oryVWO/default/0/512x.webp?v=1737701575",
-  "glass": "Highball glass",
-  "instructions": "Build in glass over ice. Stir gently.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "30 ml" },
-    { "name": "Peach Schnapps", "measure": "20 ml" },
-    { "name": "Orange Juice", "measure": "60 ml" }
-  ],
-  
-},
-{
-  "id": "custom-19",
-  "name": "Sex on the Beach",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/RaL2yO/default/0/512x.webp?v=1737701598",
-  "glass": "Highball glass",
-  "instructions": "Build in glass over ice. Stir gently.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "45 ml" },
-    { "name": "Peach Schnapps", "measure": "20 ml" },
-    { "name": "Orange Juice", "measure": "30 ml" },
-    { "name": "Pineapple Juice", "measure": "30 ml" },
-    { "name": "Cranberry Juice", "measure": "30 ml" },
-    { "name": "Bacardi Razz", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-20",
-  "name": "Woo Woo",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/R1jnPA/default/0/512x.webp?v=1737701584",
-  "glass": "Highball glass",
-  "instructions": "Build in glass over ice. Stir gently.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "30 ml" },
-    { "name": "Peach Schnapps", "measure": "15 ml" },
-    { "name": "Cranberry Juice", "measure": "70 ml" },
-    { "name": "Sugar Syrup", "measure": "10 ml" }
-  ],
-  
-},
-{
-  "id": "custom-21",
-  "name": "Adios, Motherfucker",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/Amy0mA/default/0/512x.webp?v=1737701606",
-  "glass": "Highball glass",
-  "instructions": "Build in glass over ice. Top with lemon-lime soda. Stir gently.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "12.5 ml" },
-    { "name": "Gin", "measure": "12.5 ml" },
-    { "name": "Light Rum", "measure": "12.5 ml" },
-    { "name": "Tequila", "measure": "12.5 ml" },
-    { "name": "Blue Curacao", "measure": "12.5 ml" },
-    { "name": "Lemon Juice", "measure": "12.5 ml" },
-    { "name": "Lime Juice", "measure": "12.5 ml" },
-    { "name": "Sugar Syrup", "measure": "12.5 ml" },
-    { "name": "Sprite", "measure": "40 ml" }
-  ],
-  
-},
-{
-  "id": "custom-22",
-  "name": "Bikini Martini",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/9REkGr/default/0/512x.webp?v=1737701572",
-  "glass": "Martini glass",
-  "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
-  "ingredients": [
-    { "name": "Gin", "measure": "60 ml" },
-    { "name": "Blue Curacao", "measure": "22.5 ml" },
-    { "name": "Peach Schnapps", "measure": "7.5 ml" },
-    { "name": "Lemon Juice", "measure": "7.5 ml" },
-    { "name": "Water", "measure": "10 ml" }
-  ],
-  
-},
-{
-  "id": "custom-23",
-  "name": "Black Widow's Bite",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/AqZwxr/default/0/512x.webp?v=1737701639",
-  "glass": "Cocktail glass",
-  "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "45 ml" },
-    { "name": "Blue Curacao", "measure": "22.5 ml" },
-    { "name": "Orange Juice", "measure": "30 ml" },
-    { "name": "Orange Bitters", "measure": "2 dashes" }
-  ],
-  
-},
-{
-  "id": "custom-24",
-  "name": "Blue Hawaii",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/RJe3bO/default/0/512x.webp?v=1737701585",
-  "glass": "Hurricane glass",
-  "instructions": "Shake all ingredients with ice. Strain into glass filled with crushed ice.",
-  "ingredients": [
-    { "name": "Light Rum", "measure": "22.5 ml" },
-    { "name": "Vodka", "measure": "22.5 ml" },
-    { "name": "Blue Curacao", "measure": "15 ml" },
-    { "name": "Pineapple Juice", "measure": "90 ml" },
-    { "name": "Lime Juice", "measure": "10 ml" },
-    { "name": "Lemon Juice", "measure": "10 ml" },
-    { "name": "Sugar Syrup", "measure": "10 ml" }
-  ],
-  
-},
-{
-  "id": "custom-25",
-  "name": "Pink Panther 43",
-  "category": "cocktail",
-  "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-pink-panther-43.webp",
-  "glass": "Highball glass",
-  "instructions": "Add all ingredients to glass with ice. Stir gently.",
-  "ingredients": [
-    { "name": "Licor 43", "measure": "40 ml" },
-    { "name": "Grenadine", "measure": "20 ml" },
-    { "name": "Milk", "measure": "80 ml" }
-  ],
-  
-},
-{
-  "id": "custom-26",
-  "name": "Sour 43",
-  "category": "cocktail",
-  "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-square-0005-sour-43-v2-1200x1200.webp",
-  "glass": "Cocktail glass",
-  "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
-  "ingredients": [
-    { "name": "Licor 43", "measure": "40 ml" },
-    { "name": "Sugar Syrup", "measure": "10 ml" },
-    { "name": "Lemon Juice", "measure": "25 ml" }
-  ],
-  
-},
-{
-  "id": "custom-27",
-  "name": "Maracuya 43",
-  "category": "cocktail",
-  "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-maracuya-43.webp",
-  "glass": "Highball glass",
-  "instructions": "Build in glass over ice. Stir gently.",
-  "ingredients": [
-    { "name": "Licor 43", "measure": "50 ml" },
-    { "name": "Passion Fruit Juice", "measure": "150 ml" }
-  ],
-  
-},
-{
-  "id": "custom-28",
-  "name": "Pornstar 43",
-  "category": "cocktail",
-  "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-pornstar-43-1200x1200.webp",
-  "glass": "Martini glass",
-  "instructions": "Shake all ingredients with ice. Strain into chilled glass. Garnish with half a passion fruit.",
-  "ingredients": [
-    { "name": "Licor 43", "measure": "50 ml" },
-    { "name": "Vodka", "measure": "30 ml" },
-    { "name": "Passoa", "measure": "20 ml" },
-    { "name": "Lemon Juice", "measure": "20 ml" }
-  ],
-  
-},
-{
-  "id": "custom-29",
-  "name": "Balon 43",
-  "category": "cocktail",
-  "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-square-0052-balon-43.webp",
-  "glass": "Wine glass",
-  "instructions": "Build in glass over ice. Top with sparkling water. Garnish with lemon and orange slices.",
-  "ingredients": [
-    { "name": "Licor 43", "measure": "35 ml" },
-    { "name": "Soda Water", "measure": "100 ml" },
-    { "name": "Lemon Juice", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-30",
-  "name": "Ginger 43",
-  "category": "cocktail",
-  "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-square-0028-ginger-43-global-opcion-botella.webp",
-  "glass": "Highball glass",
-  "instructions": "Build in glass over ice. Top with ginger ale. Garnish with lime slice.",
-  "ingredients": [
-    { "name": "Licor 43", "measure": "50 ml" },
-    { "name": "Ginger Ale", "measure": "200 ml" },
-    { "name": "Lime Juice", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-31",
-  "name": "Ibiza 43",
-  "category": "cocktail",
-  "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-square-0024-ibiza-43-v2.webp",
-  "glass": "Highball glass",
-  "instructions": "Build in glass over ice. Garnish with pineapple chunk.",
-  "ingredients": [
-    { "name": "Licor 43", "measure": "50 ml" },
-    { "name": "Pineapple Juice", "measure": "150 ml" }
-  ],
-  
-},
-{
-  "id": "custom-32",
-  "name": "Spanish Margarita 43",
-  "category": "cocktail",
-  "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-square-0003-spanish-margarita-1200x1200.webp",
-  "glass": "Margarita glass",
-  "instructions": "Shake all ingredients with ice. Strain into chilled glass. Garnish with lemon slice and mint sprig.",
-  "ingredients": [
-    { "name": "Licor 43", "measure": "35 ml" },
-    { "name": "Tequila", "measure": "40 ml" },
-    { "name": "Lime Juice", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-33",
-  "name": "Nautilus",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/KO5P7r/default/0/512x.webp?v=1737701576",
-  "glass": "Cocktail glass",
-  "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
-  "ingredients": [
-    { "name": "Tequila", "measure": "60 ml" },
-    { "name": "Cranberry Juice", "measure": "60 ml" },
-    { "name": "Lime Juice", "measure": "30 ml" },
-    { "name": "Sugar Syrup", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-34",
-  "name": "Rude Cosmopolitan",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/JRJWEA/default/0/512x.webp?v=1737701579",
-  "glass": "Martini glass",
-  "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
-  "ingredients": [
-    { "name": "Tequila", "measure": "37.5 ml" },
-    { "name": "Cointreau", "measure": "22.5 ml" },
-    { "name": "Cranberry Juice", "measure": "30 ml" },
-    { "name": "Lime Juice", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-35",
-  "name": "Azalea Margarita",
-  "category": "cocktail",
-  "image": "https://cdn.diffordsguide.com/cocktail/rNeJoA/default/0/512x.webp?v=1737701614",
-  "glass": "Margarita glass",
-  "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
-  "ingredients": [
-    { "name": "Tequila", "measure": "45 ml" },
-    { "name": "Cointreau", "measure": "15 ml" },
-    { "name": "Pineapple Juice", "measure": "30 ml" },
-    { "name": "Lime Juice", "measure": "15 ml" },
-    { "name": "Grenadine", "measure": "10 ml" }
-  ],
-  
-},
-{
-  "id": "custom-36",
-  "name": "Fourth of July",
-  "category": "shot",
-  "image": "https://www.thespruceeats.com/thmb/tRjd7W5b5gEXsYjThyHCKIMZizE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/FourthofJuly-Shooter-e488b35be6a84953a18f1fd6cd9537cd.jpg",
-  "glass": "Shot glass",
-  "instructions": "Layer grenadine, then blue curaçao, then vodka carefully in a shot glass.",
-  "ingredients": [
-    { "name": "Grenadine", "measure": "10 ml" },
-    { "name": "Blue Curacao", "measure": "10 ml" },
-    { "name": "Vodka", "measure": "10 ml" }
-  ],
-  
-},
-{
-  "id": "custom-37",
-  "name": "Fuzzy Jäger Cranberry",
-  "category": "shot",
-  "image": "https://www.thespruceeats.com/thmb/X64n_7povVNNuXwo_pJ07anb1MI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/red-headed-slut-759787-8-5b490435c9e77c0037b60f12.jpg",
-  "glass": "Shot glass",
-  "instructions": "Shake all ingredients with ice. Strain into shot glass.",
-  "ingredients": [
-    { "name": "Jägermeister", "measure": "15 ml" },
-    { "name": "Peach Schnapps", "measure": "15 ml" },
-    { "name": "Cranberry Juice", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-38",
-  "name": "Raspberry Gimlet",
-  "category": "shot",
-  "image": "https://www.thespruceeats.com/thmb/EHxthu9zaRDoqQqLwNtcYOwhPE0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/purple-hooter-recipes-761147-5-5b0dac4b119fa800374e4bd0.jpg",
-  "glass": "Shot glass",
-  "instructions": "Shake all ingredients with ice. Strain into shot glass.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "20 ml" },
-    { "name": "Lime Juice", "measure": "10 ml" },
-    { "name": "Raspberry Liqueur", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-39",
-  "name": "Shirley Temple",
-  "category": "mocktail",
-  "image": "https://images.immediate.co.uk/production/volatile/sites/30/2023/01/Shirley-temple-1e55cf0.jpg?quality=90&webp=true&resize=700,636",
-  "glass": "Highball glass",
-  "instructions": "Fill glass with ice. Add ginger ale and grenadine. Stir gently. Garnish with a lime wedge and maraschino cherry.",
-  "ingredients": [
-    { "name": "Ginger Ale", "measure": "200 ml" },
-    { "name": "Grenadine", "measure": "30 ml" },
-    { "name": "Lime Juice", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-40",
-  "name": "Virgin Mojito",
-  "category": "mocktail",
-  "image": "https://images.immediate.co.uk/production/volatile/sites/30/2021/11/348171423-lyres_mojito_pitcher_rgb-e636d0a.jpg?quality=90&webp=true&resize=700,636",
-  "glass": "Highball glass",
-  "instructions": "Muddle mint leaves with sugar and lime juice. Add ice and top with soda water. Stir gently and garnish with mint.",
-  "ingredients": [
-    { "name": "Lime", "measure": "1" },
-    { "name": "Mint", "measure": "8-10 leaves" },
-    { "name": "Sugar", "measure": "2 tsp" },
-    { "name": "Soda Water", "measure": "150 ml" }
-  ],
-  
-},
-{
-  "id": "custom-41",
-  "name": "Homemade Lemonade",
-  "category": "mocktail",
-  "image": "https://assets.bonappetit.com/photos/62aba9d5b433b325383e9ca9/1:1/w_2240,c_limit/0616-lemonade-recipe-lede.jpg",
-  "glass": "Highball glass",
-  "instructions": "Mix lemon juice with sugar syrup and cold water. Stir well. Serve over ice with lemon slices.",
-  "ingredients": [
-    { "name": "Lemon Juice", "measure": "60 ml" },
-    { "name": "Sugar Syrup", "measure": "30 ml" },
-    { "name": "Water", "measure": "150 ml" }
-  ],
-  
-},
-{
-  "id": "custom-42",
-  "name": "Ginger Orange Warmer",
-  "category": "mocktail",
-  "image": "https://www.southernliving.com/thmb/mmyVvN80t0VvS4YqCbPM_Sh5kGE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gma_sl_1624-2000-9813deafe2fc4b818b0657fcef2c13d6.jpg",
-  "glass": "Mug",
-  "instructions": "Combine orange juice with grated ginger and honey. Heat gently or serve cold over ice.",
-  "ingredients": [
-    { "name": "Orange Juice", "measure": "150 ml" },
-    { "name": "Ginger", "measure": "1 inch grated" },
-    { "name": "Honey", "measure": "1 tsp" }
-  ],
-  
-},
-{
-  "id": "custom-43",
-  "name": "Tropical Sunrise",
-  "category": "mocktail",
-  "image": "https://www.mightymrs.com/wp-content/uploads/tropical-pineapple-orange-tequilla-sunrise1.jpg",
-  "glass": "Highball glass",
-  "instructions": "Pour pineapple and orange juice over ice. Slowly add grenadine which will sink to the bottom. Stir gently for sunrise effect.",
-  "ingredients": [
-    { "name": "Pineapple Juice", "measure": "90 ml" },
-    { "name": "Orange Juice", "measure": "90 ml" },
-    { "name": "Grenadine", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-44",
-  "name": "Citrus Spritzer",
-  "category": "mocktail",
-  "image": "https://www.tiger-corporation.com/wp-content/uploads/2023/04/hero-img-recipe-non-alcoholic-citrus-spritzer-abf529a07dba2bc4fd4a8a1cd1466a72.jpg",
-  "glass": "Wine glass",
-  "instructions": "Combine juices over ice. Top with soda water. Garnish with orange and lemon slices.",
-  "ingredients": [
-    { "name": "Orange Juice", "measure": "60 ml" },
-    { "name": "Lemon Juice", "measure": "30 ml" },
-    { "name": "Sugar Syrup", "measure": "15 ml" },
-    { "name": "Soda Water", "measure": "100 ml" }
-  ],
-  
-},
-{
-  "id": "custom-45",
-  "name": "Ginger Red-Headed Slut",
-  "category": "shot",
-  "image": "https://localbartendingschool.com/top/wp-content/uploads/2022/06/image11.jpg",
-  "glass": "Shot glass",
-  "instructions": "Shake all ingredients with ice. Strain into shot glass.",
-  "ingredients": [
-    { "name": "Peach Schnapps", "measure": "30 ml" },
-    { "name": "Jägermeister", "measure": "30 ml" },
-    { "name": "Cranberry Juice", "measure": "30 ml" }
-  ],
-  
-},
-{
-  "id": "custom-46",
-  "name": "Mango Margarita",
-  "category": "cocktail",
-  "image": "https://www.acouplecooks.com/wp-content/uploads/2020/12/Mango-Margarita-050.jpg",
-  "glass": "Margarita glass",
-  "instructions": "Add all ingredients to a shaker with ice. Shake well and strain into a chilled margarita glass. Garnish with a lime wheel or mango slice.",
-  "ingredients": [
-    { "name": "Tequila", "measure": "45 ml" },
-    { "name": "Mango Puree", "measure": "60 ml" },
-    { "name": "Lime Juice", "measure": "20 ml" },
-    { "name": "Cointreau", "measure": "15 ml" },
-    { "name": "Sugar Syrup", "measure": "10 ml" }
-  ],
-  
-},
-{
-  "id": "custom-47",
-  "name": "Mango Daiquiri",
-  "category": "cocktail",
-  "image": "https://www.recipetineats.com/tachyon/2017/01/Mango-Daiquiris-3.jpg",
-  "glass": "Cocktail glass",
-  "instructions": "Add all ingredients to a shaker with ice. Shake vigorously and strain into a chilled cocktail glass. Garnish with a lime wheel.",
-  "ingredients": [
-    { "name": "White Rum", "measure": "60 ml" },
-    { "name": "Mango Puree", "measure": "50 ml" },
-    { "name": "Lime Juice", "measure": "25 ml" },
-    { "name": "Sugar Syrup", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-48",
-  "name": "Mango Sunrise",
-  "category": "cocktail",
-  "image": "https://www.sarcasticcooking.com/wp-content/uploads/2019/07/somrus-mango-sunrise-cocktail-3.jpg",
-  "glass": "Highball glass",
-  "instructions": "Fill glass with ice. Pour tequila and mango puree, top with orange juice. Slowly pour grenadine down the side of the glass to create the sunrise effect. Do not stir.",
-  "ingredients": [
-    { "name": "Tequila", "measure": "45 ml" },
-    { "name": "Mango Puree", "measure": "40 ml" },
-    { "name": "Orange Juice", "measure": "90 ml" },
-    { "name": "Grenadine", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-49",
-  "name": "Mango Colada",
-  "category": "cocktail",
-  "image": "https://homemadehooplah.com/wp-content/uploads/2022/07/mango-colada-1.jpg",
-  "glass": "Hurricane glass",
-  "instructions": "Blend all ingredients with crushed ice until smooth. Pour into a hurricane glass and garnish with a pineapple wedge.",
-  "ingredients": [
-    { "name": "Bacardi", "measure": "60 ml" },
-    { "name": "Mango Puree", "measure": "60 ml" },
-    { "name": "Pineapple Juice", "measure": "60 ml" },
-    { "name": "Milk", "measure": "30 ml" }
-  ],
-  
-},
-{
-  "id": "custom-50",
-  "name": "Mango Passion",
-  "category": "cocktail",
-  "image": "https://fullofplants.com/wp-content/uploads/2022/09/mango-and-passion-fruit-liquor-homemade-4-ingredient-appetizer-thumb-2-1400x1400.jpg",
-  "glass": "Martini glass",
-  "instructions": "Add all ingredients to a shaker with ice. Shake well and strain into a chilled martini glass. Garnish with a passion fruit half.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "45 ml" },
-    { "name": "Mango Puree", "measure": "40 ml" },
-    { "name": "Passion Fruit Liqueur", "measure": "20 ml" },
-    { "name": "Lime Juice", "measure": "15 ml" }
-  ],
-  
-},
-{
-  "id": "custom-51",
-  "name": "Mango Gin Fizz",
-  "category": "cocktail",
-  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVTNAAf-v0QA5Qmqi-pEi6x39me_zUXQZ9Q&s",
-  "glass": "Highball glass",
-  "instructions": "Add gin, mango puree, lime juice and sugar syrup to a shaker with ice. Shake well and strain into a highball glass with ice. Top with soda water and stir gently.",
-  "ingredients": [
-    { "name": "Gin", "measure": "50 ml" },
-    { "name": "Mango Puree", "measure": "40 ml" },
-    { "name": "Lime Juice", "measure": "20 ml" },
-    { "name": "Sugar Syrup", "measure": "15 ml" },
-    { "name": "Soda Water", "measure": "60 ml" }
-  ],
-  
-},
-{
-  "id": "custom-52",
-  "name": "Tropical Blue",
-  "category": "cocktail",
-  "image": "https://thefoodiebunch.sfo3.digitaloceanspaces.com/wp-content/uploads/2024/12/12184417/Blue-Hawaiian-1140x570.png",
-  "glass": "Hurricane glass",
-  "instructions": "Add vodka, blue curacao, mango puree and pineapple juice to a shaker with ice. Shake and strain into a hurricane glass with ice. Top with sprite.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "40 ml" },
-    { "name": "Blue Curacao", "measure": "25 ml" },
-    { "name": "Mango Puree", "measure": "40 ml" },
-    { "name": "Pineapple Juice", "measure": "60 ml" },
-    { "name": "Sprite", "measure": "Top up" }
-  ],
-  
-},
-{
-  "id": "custom-53",
-  "name": "Mango Peach Punch",
-  "category": "cocktail",
-  "image": "https://bonnemaman.us/cdn/shop/articles/Bonne_Maman-Mango_Peach_Splash_Cocktail.jpg?v=1730402055&width=1680",
-  "glass": "Highball glass",
-  "instructions": "Build in glass over ice. Stir gently and garnish with a peach slice.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "30 ml" },
-    { "name": "Peach Schnapps", "measure": "30 ml" },
-    { "name": "Mango Puree", "measure": "40 ml" },
-    { "name": "Orange Juice", "measure": "60 ml" }
-  ],
-  
-},
-{
-  "id": "custom-54",
-  "name": "Mango Bomb",
-  "category": "shot",
-  "image": "https://scontent-ams2-1.cdninstagram.com/v/t39.30808-6/467494251_18051741700958498_3162628544241106993_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzMyOTk1NzY4NDI1NTYwMDg3Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=eREWuUnDcG4Q7kNvwHzzUDg&_nc_oc=Adk_UwxejFu4HRLJ1w_Qcy-3poFqB0MQhbs1PCCpn3fZRBwT4HxJjjyBBLqWrnbjlQm019TNcY_fcm8ndQGMby90&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=AVwhHa6S6xFEmA5DlkrSUg&oh=00_Afk1icq10S8FGmnGnrv3Pu46ft8KfxR-Rg0qwpxpSrUkFw&oe=694CBF55",
-  "glass": "Shot glass",
-  "instructions": "Shake all ingredients with ice. Strain into a shot glass.",
-  "ingredients": [
-    { "name": "Vodka", "measure": "25 ml" },
-    { "name": "Mango Puree", "measure": "15 ml" },
-    { "name": "Lime Juice", "measure": "10 ml" }
-  ],
-  
-},
-{
-  "id": "custom-55",
-  "name": "Tropical Slammer",
-  "category": "shot",
-  "image": "https://www.thecocktaildb.com/images/media/drink/43uhr51551451311.jpg",
-  "glass": "Shot glass",
-  "instructions": "Add tequila and mango puree to a shot glass. Top with 7-up. Cover with hand, slam on table and drink immediately.",
-  "ingredients": [
-    { "name": "Tequila", "measure": "25 ml" },
-    { "name": "Mango Puree", "measure": "15 ml" },
-    { "name": "7-Up", "measure": "Splash" }
-  ],
-  
-},
-{
-  "id": "custom-56",
-  "name": "Mango Lassi",
-  "category": "mocktail",
-  "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/mango-lassi-recipe.jpg",
-  "glass": "Highball glass",
-  "instructions": "Blend all ingredients until smooth. Pour into a glass and sprinkle with a pinch of cardamom if desired.",
-  "ingredients": [
-    { "name": "Mango Puree", "measure": "100 ml" },
-    { "name": "Milk", "measure": "100 ml" },
-    { "name": "Honey", "measure": "1 tsp" },
-    { "name": "Sugar", "measure": "1 tsp" }
-  ],
-  
-},
-{
-  "id": "custom-57",
-  "name": "Mango Lemonade",
-  "category": "mocktail",
-  "image": "https://www.jocooks.com/wp-content/uploads/2014/08/mango-lemonade-1-11.jpg",
-  "glass": "Highball glass",
-  "instructions": "Add mango puree, lemon juice and sugar syrup to a glass with ice. Top with soda water and stir gently. Garnish with a lemon slice.",
-  "ingredients": [
-    { "name": "Mango Puree", "measure": "60 ml" },
-    { "name": "Lemon Juice", "measure": "30 ml" },
-    { "name": "Sugar Syrup", "measure": "20 ml" },
-    { "name": "Soda Water", "measure": "100 ml" }
-  ],
-  
-},
-{
-  "id": "custom-58",
-  "name": "Virgin Mango Sunrise",
-  "category": "mocktail",
-  "image": "https://mocktail.net/wp-content/uploads/2021/08/Summer-Sunrise-Mocktail_ig.jpg",
-  "glass": "Highball glass",
-  "instructions": "Fill glass with ice. Add mango puree and orange juice, stir gently. Slowly pour grenadine down the side of the glass. Do not stir.",
-  "ingredients": [
-    { "name": "Mango Puree", "measure": "60 ml" },
-    { "name": "Orange Juice", "measure": "120 ml" },
-    { "name": "Grenadine", "measure": "15 ml" }
-  ],
-  
-},
+    "id": "custom-16",
+    "name": "Fizzy Peach",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/OdyzwR/default/0/512x.webp?v=1737701601",
+    "glass": "Highball glass",
+    "instructions": "Build in glass over ice. Stir gently.",
+    "ingredients": [
+      { "name": "Peach Schnapps", "measure": "40 ml" },
+      { "name": "Lime Juice", "measure": "10 ml" },
+      { "name": "Soda Water", "measure": "100 ml" }
+    ],
+  },
+  {
+    "id": "custom-17",
+    "name": "Hairy Navel",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/reGXaR/default/0/512x.webp?v=1737701598",
+    "glass": "Highball glass",
+    "instructions": "Build in glass over ice. Stir gently.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "45 ml" },
+      { "name": "Peach Schnapps", "measure": "30 ml" },
+      { "name": "Orange Juice", "measure": "105 ml" }
+    ],
+  },
+  {
+    "id": "custom-18",
+    "name": "Iguana Wana",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/oryVWO/default/0/512x.webp?v=1737701575",
+    "glass": "Highball glass",
+    "instructions": "Build in glass over ice. Stir gently.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "30 ml" },
+      { "name": "Peach Schnapps", "measure": "20 ml" },
+      { "name": "Orange Juice", "measure": "60 ml" }
+    ],
+  },
+  {
+    "id": "custom-19",
+    "name": "Sex on the Beach",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/RaL2yO/default/0/512x.webp?v=1737701598",
+    "glass": "Highball glass",
+    "instructions": "Build in glass over ice. Stir gently.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "45 ml" },
+      { "name": "Peach Schnapps", "measure": "20 ml" },
+      { "name": "Orange Juice", "measure": "30 ml" },
+      { "name": "Pineapple Juice", "measure": "30 ml" },
+      { "name": "Cranberry Juice", "measure": "30 ml" },
+      { "name": "Bacardi Razz", "measure": "15 ml" }
+    ],
+  },
+  {
+    "id": "custom-20",
+    "name": "Woo Woo",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/R1jnPA/default/0/512x.webp?v=1737701584",
+    "glass": "Highball glass",
+    "instructions": "Build in glass over ice. Stir gently.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "30 ml" },
+      { "name": "Peach Schnapps", "measure": "15 ml" },
+      { "name": "Cranberry Juice", "measure": "70 ml" },
+      { "name": "Sugar Syrup", "measure": "10 ml" }
+    ],
+  },
+  {
+    "id": "custom-21",
+    "name": "Adios, Motherfucker",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/Amy0mA/default/0/512x.webp?v=1737701606",
+    "glass": "Highball glass",
+    "instructions": "Build in glass over ice. Top with lemon-lime soda. Stir gently.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "12.5 ml" },
+      { "name": "Gin", "measure": "12.5 ml" },
+      { "name": "Light Rum", "measure": "12.5 ml" },
+      { "name": "Tequila", "measure": "12.5 ml" },
+      { "name": "Blue Curacao", "measure": "12.5 ml" },
+      { "name": "Lemon Juice", "measure": "12.5 ml" },
+      { "name": "Lime Juice", "measure": "12.5 ml" },
+      { "name": "Sugar Syrup", "measure": "12.5 ml" },
+      { "name": "Sprite", "measure": "40 ml" }
+    ],
+  },
+  {
+    "id": "custom-22",
+    "name": "Bikini Martini",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/9REkGr/default/0/512x.webp?v=1737701572",
+    "glass": "Martini glass",
+    "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
+    "ingredients": [
+      { "name": "Gin", "measure": "60 ml" },
+      { "name": "Blue Curacao", "measure": "22.5 ml" },
+      { "name": "Peach Schnapps", "measure": "7.5 ml" },
+      { "name": "Lemon Juice", "measure": "7.5 ml" },
+      { "name": "Water", "measure": "10 ml" }
+    ],
+  },
+  {
+    "id": "custom-23",
+    "name": "Black Widow's Bite",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/AqZwxr/default/0/512x.webp?v=1737701639",
+    "glass": "Cocktail glass",
+    "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "90 ml" },
+      { "name": "Blue Curacao", "measure": "45 ml" },
+      { "name": "Orange Juice", "measure": "60 ml" },
+      { "name": "Orange Bitters", "measure": "4 dashes" }
+    ],
+  },
+  {
+    "id": "custom-24",
+    "name": "Blue Hawaii",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/RJe3bO/default/0/512x.webp?v=1737701585",
+    "glass": "Hurricane glass",
+    "instructions": "Shake all ingredients with ice. Strain into glass filled with crushed ice.",
+    "ingredients": [
+      { "name": "Light Rum", "measure": "22.5 ml" },
+      { "name": "Vodka", "measure": "22.5 ml" },
+      { "name": "Blue Curacao", "measure": "15 ml" },
+      { "name": "Pineapple Juice", "measure": "90 ml" },
+      { "name": "Lime Juice", "measure": "10 ml" },
+      { "name": "Lemon Juice", "measure": "10 ml" },
+      { "name": "Sugar Syrup", "measure": "10 ml" }
+    ],
+  },
+  {
+    "id": "custom-25",
+    "name": "Pink Panther 43",
+    "category": "cocktail",
+    "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-pink-panther-43.webp",
+    "glass": "Highball glass",
+    "instructions": "Add all ingredients to glass with ice. Stir gently.",
+    "ingredients": [
+      { "name": "Licor 43", "measure": "40 ml" },
+      { "name": "Grenadine", "measure": "20 ml" },
+      { "name": "Milk", "measure": "80 ml" }
+    ],
+  },
+  {
+    "id": "custom-26",
+    "name": "Sour 43",
+    "category": "cocktail",
+    "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-square-0005-sour-43-v2-1200x1200.webp",
+    "glass": "Cocktail glass",
+    "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
+    "ingredients": [
+      { "name": "Licor 43", "measure": "80 ml" },
+      { "name": "Sugar Syrup", "measure": "20 ml" },
+      { "name": "Lemon Juice", "measure": "50 ml" }
+    ],
+  },
+  {
+    "id": "custom-27",
+    "name": "Maracuya 43",
+    "category": "cocktail",
+    "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-maracuya-43.webp",
+    "glass": "Highball glass",
+    "instructions": "Build in glass over ice. Stir gently.",
+    "ingredients": [
+      { "name": "Licor 43", "measure": "50 ml" },
+      { "name": "Passion Fruit Juice", "measure": "150 ml" }
+    ],
+  },
+  {
+    "id": "custom-28",
+    "name": "Pornstar 43",
+    "category": "cocktail",
+    "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-pornstar-43-1200x1200.webp",
+    "glass": "Martini glass",
+    "instructions": "Shake all ingredients with ice. Strain into chilled glass. Garnish with half a passion fruit.",
+    "ingredients": [
+      { "name": "Licor 43", "measure": "50 ml" },
+      { "name": "Vodka", "measure": "30 ml" },
+      { "name": "Passoa", "measure": "20 ml" },
+      { "name": "Lemon Juice", "measure": "20 ml" }
+    ],
+  },
+  {
+    "id": "custom-29",
+    "name": "Balon 43",
+    "category": "cocktail",
+    "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-square-0052-balon-43.webp",
+    "glass": "Wine glass",
+    "instructions": "Build in glass over ice. Top with sparkling water. Garnish with lemon and orange slices.",
+    "ingredients": [
+      { "name": "Licor 43", "measure": "35 ml" },
+      { "name": "Soda Water", "measure": "100 ml" },
+      { "name": "Lemon Juice", "measure": "15 ml" }
+    ],
+  },
+  {
+    "id": "custom-30",
+    "name": "Ginger 43",
+    "category": "cocktail",
+    "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-square-0028-ginger-43-global-opcion-botella.webp",
+    "glass": "Highball glass",
+    "instructions": "Build in glass over ice. Top with ginger ale. Garnish with lime slice.",
+    "ingredients": [
+      { "name": "Licor 43", "measure": "50 ml" },
+      { "name": "Ginger Ale", "measure": "200 ml" },
+      { "name": "Lime Juice", "measure": "15 ml" }
+    ],
+  },
+  {
+    "id": "custom-31",
+    "name": "Ibiza 43",
+    "category": "cocktail",
+    "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-square-0024-ibiza-43-v2.webp",
+    "glass": "Highball glass",
+    "instructions": "Build in glass over ice. Garnish with pineapple chunk.",
+    "ingredients": [
+      { "name": "Licor 43", "measure": "50 ml" },
+      { "name": "Pineapple Juice", "measure": "150 ml" }
+    ],
+  },
+  {
+    "id": "custom-32",
+    "name": "Spanish Margarita 43",
+    "category": "cocktail",
+    "image": "https://licor43.com/wp-content/uploads/2025/09/l43-recipe-square-0003-spanish-margarita-1200x1200.webp",
+    "glass": "Margarita glass",
+    "instructions": "Shake all ingredients with ice. Strain into chilled glass. Garnish with lemon slice and mint sprig.",
+    "ingredients": [
+      { "name": "Licor 43", "measure": "70 ml" },
+      { "name": "Tequila", "measure": "80 ml" },
+      { "name": "Lime Juice", "measure": "30 ml" }
+    ],
+  },
+  {
+    "id": "custom-33",
+    "name": "Nautilus",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/KO5P7r/default/0/512x.webp?v=1737701576",
+    "glass": "Cocktail glass",
+    "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
+    "ingredients": [
+      { "name": "Tequila", "measure": "60 ml" },
+      { "name": "Cranberry Juice", "measure": "60 ml" },
+      { "name": "Lime Juice", "measure": "30 ml" },
+      { "name": "Sugar Syrup", "measure": "15 ml" }
+    ],
+  },
+  {
+    "id": "custom-34",
+    "name": "Rude Cosmopolitan",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/JRJWEA/default/0/512x.webp?v=1737701579",
+    "glass": "Martini glass",
+    "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
+    "ingredients": [
+      { "name": "Tequila", "measure": "37.5 ml" },
+      { "name": "Cointreau", "measure": "22.5 ml" },
+      { "name": "Cranberry Juice", "measure": "30 ml" },
+      { "name": "Lime Juice", "measure": "15 ml" }
+    ],
+  },
+  {
+    "id": "custom-35",
+    "name": "Azalea Margarita",
+    "category": "cocktail",
+    "image": "https://cdn.diffordsguide.com/cocktail/rNeJoA/default/0/512x.webp?v=1737701614",
+    "glass": "Margarita glass",
+    "instructions": "Shake all ingredients with ice. Strain into chilled glass.",
+    "ingredients": [
+      { "name": "Tequila", "measure": "45 ml" },
+      { "name": "Cointreau", "measure": "15 ml" },
+      { "name": "Pineapple Juice", "measure": "30 ml" },
+      { "name": "Lime Juice", "measure": "15 ml" },
+      { "name": "Grenadine", "measure": "10 ml" }
+    ],
+  },
+  {
+    "id": "custom-36",
+    "name": "Fourth of July",
+    "category": "shot",
+    "image": "https://www.thespruceeats.com/thmb/tRjd7W5b5gEXsYjThyHCKIMZizE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/FourthofJuly-Shooter-e488b35be6a84953a18f1fd6cd9537cd.jpg",
+    "glass": "Shot glass",
+    "instructions": "Layer grenadine, then blue curaçao, then vodka carefully in a shot glass.",
+    "ingredients": [
+      { "name": "Grenadine", "measure": "17 ml" },
+      { "name": "Blue Curacao", "measure": "17 ml" },
+      { "name": "Vodka", "measure": "16 ml" }
+    ],
+  },
+  {
+    "id": "custom-38",
+    "name": "Raspberry Gimlet",
+    "category": "shot",
+    "image": "https://www.thespruceeats.com/thmb/EHxthu9zaRDoqQqLwNtcYOwhPE0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/purple-hooter-recipes-761147-5-5b0dac4b119fa800374e4bd0.jpg",
+    "glass": "Shot glass",
+    "instructions": "Shake all ingredients with ice. Strain into shot glass.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "22 ml" },
+      { "name": "Lime Juice", "measure": "11 ml" },
+      { "name": "Raspberry Liqueur", "measure": "17 ml" }
+    ],
+  },
+  {
+    "id": "custom-39",
+    "name": "Shirley Temple",
+    "category": "mocktail",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2023/01/Shirley-temple-1e55cf0.jpg?quality=90&webp=true&resize=700,636",
+    "glass": "Highball glass",
+    "instructions": "Fill glass with ice. Add ginger ale and grenadine. Stir gently. Garnish with a lime wedge and maraschino cherry.",
+    "ingredients": [
+      { "name": "Ginger Ale", "measure": "200 ml" },
+      { "name": "Grenadine", "measure": "30 ml" },
+      { "name": "Lime Juice", "measure": "15 ml" }
+    ],
+  },
+  {
+    "id": "custom-40",
+    "name": "Virgin Mojito",
+    "category": "mocktail",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2021/11/348171423-lyres_mojito_pitcher_rgb-e636d0a.jpg?quality=90&webp=true&resize=700,636",
+    "glass": "Highball glass",
+    "instructions": "Muddle mint leaves with sugar and lime juice. Add ice and top with soda water. Stir gently and garnish with mint.",
+    "ingredients": [
+      { "name": "Lime", "measure": "1" },
+      { "name": "Mint", "measure": "8-10 leaves" },
+      { "name": "Sugar", "measure": "2 tsp" },
+      { "name": "Soda Water", "measure": "150 ml" }
+    ],
+  },
+  {
+    "id": "custom-41",
+    "name": "Homemade Lemonade",
+    "category": "mocktail",
+    "image": "https://assets.bonappetit.com/photos/62aba9d5b433b325383e9ca9/1:1/w_2240,c_limit/0616-lemonade-recipe-lede.jpg",
+    "glass": "Highball glass",
+    "instructions": "Mix lemon juice with sugar syrup and cold water. Stir well. Serve over ice with lemon slices.",
+    "ingredients": [
+      { "name": "Lemon Juice", "measure": "60 ml" },
+      { "name": "Sugar Syrup", "measure": "30 ml" },
+      { "name": "Water", "measure": "150 ml" }
+    ],
+  },
+  {
+    "id": "custom-42",
+    "name": "Ginger Orange Warmer",
+    "category": "mocktail",
+    "image": "https://www.southernliving.com/thmb/mmyVvN80t0VvS4YqCbPM_Sh5kGE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gma_sl_1624-2000-9813deafe2fc4b818b0657fcef2c13d6.jpg",
+    "glass": "Mug",
+    "instructions": "Combine orange juice with grated ginger and honey. Heat gently or serve cold over ice.",
+    "ingredients": [
+      { "name": "Orange Juice", "measure": "150 ml" },
+      { "name": "Ginger", "measure": "1 inch grated" },
+      { "name": "Honey", "measure": "1 tsp" }
+    ],
+  },
+  {
+    "id": "custom-43",
+    "name": "Tropical Sunrise",
+    "category": "mocktail",
+    "image": "https://www.mightymrs.com/wp-content/uploads/tropical-pineapple-orange-tequilla-sunrise1.jpg",
+    "glass": "Highball glass",
+    "instructions": "Pour pineapple and orange juice over ice. Slowly add grenadine which will sink to the bottom. Stir gently for sunrise effect.",
+    "ingredients": [
+      { "name": "Pineapple Juice", "measure": "90 ml" },
+      { "name": "Orange Juice", "measure": "90 ml" },
+      { "name": "Grenadine", "measure": "15 ml" }
+    ],
+  },
+  {
+    "id": "custom-44",
+    "name": "Citrus Spritzer",
+    "category": "mocktail",
+    "image": "https://www.tiger-corporation.com/wp-content/uploads/2023/04/hero-img-recipe-non-alcoholic-citrus-spritzer-abf529a07dba2bc4fd4a8a1cd1466a72.jpg",
+    "glass": "Wine glass",
+    "instructions": "Combine juices over ice. Top with soda water. Garnish with orange and lemon slices.",
+    "ingredients": [
+      { "name": "Orange Juice", "measure": "60 ml" },
+      { "name": "Lemon Juice", "measure": "30 ml" },
+      { "name": "Sugar Syrup", "measure": "15 ml" },
+      { "name": "Soda Water", "measure": "100 ml" }
+    ],
+  },
+  {
+    "id": "custom-45",
+    "name": "Ginger Red-Headed Slut",
+    "category": "shot",
+    "image": "https://localbartendingschool.com/top/wp-content/uploads/2022/06/image11.jpg",
+    "glass": "Shot glass",
+    "instructions": "Shake all ingredients with ice. Strain into shot glass.",
+    "ingredients": [
+      { "name": "Peach Schnapps", "measure": "17 ml" },
+      { "name": "Jägermeister", "measure": "17 ml" },
+      { "name": "Cranberry Juice", "measure": "16 ml" }
+    ],
+  },
+  {
+    "id": "custom-46",
+    "name": "Mango Margarita",
+    "category": "cocktail",
+    "image": "https://www.acouplecooks.com/wp-content/uploads/2020/12/Mango-Margarita-050.jpg",
+    "glass": "Margarita glass",
+    "instructions": "Add all ingredients to a shaker with ice. Shake well and strain into a chilled margarita glass. Garnish with a lime wheel or mango slice.",
+    "ingredients": [
+      { "name": "Tequila", "measure": "45 ml" },
+      { "name": "Mango Puree", "measure": "60 ml" },
+      { "name": "Lime Juice", "measure": "20 ml" },
+      { "name": "Cointreau", "measure": "15 ml" },
+      { "name": "Sugar Syrup", "measure": "10 ml" }
+    ],
+  },
+  {
+    "id": "custom-47",
+    "name": "Mango Daiquiri",
+    "category": "cocktail",
+    "image": "https://www.recipetineats.com/tachyon/2017/01/Mango-Daiquiris-3.jpg",
+    "glass": "Cocktail glass",
+    "instructions": "Add all ingredients to a shaker with ice. Shake vigorously and strain into a chilled cocktail glass. Garnish with a lime wheel.",
+    "ingredients": [
+      { "name": "White Rum", "measure": "60 ml" },
+      { "name": "Mango Puree", "measure": "50 ml" },
+      { "name": "Lime Juice", "measure": "25 ml" },
+      { "name": "Sugar Syrup", "measure": "15 ml" }
+    ],
+  },
+  {
+    "id": "custom-48",
+    "name": "Mango Sunrise",
+    "category": "cocktail",
+    "image": "https://www.sarcasticcooking.com/wp-content/uploads/2019/07/somrus-mango-sunrise-cocktail-3.jpg",
+    "glass": "Highball glass",
+    "instructions": "Fill glass with ice. Pour tequila and mango puree, top with orange juice. Slowly pour grenadine down the side of the glass to create the sunrise effect. Do not stir.",
+    "ingredients": [
+      { "name": "Tequila", "measure": "45 ml" },
+      { "name": "Mango Puree", "measure": "40 ml" },
+      { "name": "Orange Juice", "measure": "90 ml" },
+      { "name": "Grenadine", "measure": "15 ml" }
+    ],
+  },
+  {
+    "id": "custom-49",
+    "name": "Mango Colada",
+    "category": "cocktail",
+    "image": "https://homemadehooplah.com/wp-content/uploads/2022/07/mango-colada-1.jpg",
+    "glass": "Hurricane glass",
+    "instructions": "Blend all ingredients with crushed ice until smooth. Pour into a hurricane glass and garnish with a pineapple wedge.",
+    "ingredients": [
+      { "name": "Bacardi", "measure": "60 ml" },
+      { "name": "Mango Puree", "measure": "60 ml" },
+      { "name": "Pineapple Juice", "measure": "60 ml" },
+      { "name": "Milk", "measure": "30 ml" }
+    ],
+  },
+  {
+    "id": "custom-50",
+    "name": "Mango Passion",
+    "category": "cocktail",
+    "image": "https://fullofplants.com/wp-content/uploads/2022/09/mango-and-passion-fruit-liquor-homemade-4-ingredient-appetizer-thumb-2-1400x1400.jpg",
+    "glass": "Martini glass",
+    "instructions": "Add all ingredients to a shaker with ice. Shake well and strain into a chilled martini glass. Garnish with a passion fruit half.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "45 ml" },
+      { "name": "Mango Puree", "measure": "40 ml" },
+      { "name": "Passion Fruit Liqueur", "measure": "20 ml" },
+      { "name": "Lime Juice", "measure": "15 ml" }
+    ],
+  },
+  {
+    "id": "custom-51",
+    "name": "Mango Gin Fizz",
+    "category": "cocktail",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVTNAAf-v0QA5Qmqi-pEi6x39me_zUXQZ9Q&s",
+    "glass": "Highball glass",
+    "instructions": "Add gin, mango puree, lime juice and sugar syrup to a shaker with ice. Shake well and strain into a highball glass with ice. Top with soda water and stir gently.",
+    "ingredients": [
+      { "name": "Gin", "measure": "50 ml" },
+      { "name": "Mango Puree", "measure": "40 ml" },
+      { "name": "Lime Juice", "measure": "20 ml" },
+      { "name": "Sugar Syrup", "measure": "15 ml" },
+      { "name": "Soda Water", "measure": "60 ml" }
+    ],
+  },
+  {
+    "id": "custom-52",
+    "name": "Tropical Blue",
+    "category": "cocktail",
+    "image": "https://thefoodiebunch.sfo3.digitaloceanspaces.com/wp-content/uploads/2024/12/12184417/Blue-Hawaiian-1140x570.png",
+    "glass": "Hurricane glass",
+    "instructions": "Add vodka, blue curacao, mango puree and pineapple juice to a shaker with ice. Shake and strain into a hurricane glass with ice. Top with sprite.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "40 ml" },
+      { "name": "Blue Curacao", "measure": "25 ml" },
+      { "name": "Mango Puree", "measure": "40 ml" },
+      { "name": "Pineapple Juice", "measure": "60 ml" },
+      { "name": "Sprite", "measure": "Top up" }
+    ],
+  },
+  {
+    "id": "custom-53",
+    "name": "Mango Peach Punch",
+    "category": "cocktail",
+    "image": "https://bonnemaman.us/cdn/shop/articles/Bonne_Maman-Mango_Peach_Splash_Cocktail.jpg?v=1730402055&width=1680",
+    "glass": "Highball glass",
+    "instructions": "Build in glass over ice. Stir gently and garnish with a peach slice.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "30 ml" },
+      { "name": "Peach Schnapps", "measure": "30 ml" },
+      { "name": "Mango Puree", "measure": "40 ml" },
+      { "name": "Orange Juice", "measure": "60 ml" }
+    ],
+  },
+  {
+    "id": "custom-54",
+    "name": "Mango Bomb",
+    "category": "shot",
+    "image": "https://recipe-images.cooking.freshy.com/_/2025/05/02/01JT906VCDRWD6AJNDX1QQHTJ0/U0?class=medium&optimizer=image",
+    "glass": "Shot glass",
+    "instructions": "Shake all ingredients with ice. Strain into a shot glass.",
+    "ingredients": [
+      { "name": "Vodka", "measure": "25 ml" },
+      { "name": "Mango Puree", "measure": "15 ml" },
+      { "name": "Lime Juice", "measure": "10 ml" }
+    ],
+  },
+  {
+    "id": "custom-55",
+    "name": "Tropical Slammer",
+    "category": "shot",
+    "image": "https://www.thecocktaildb.com/images/media/drink/43uhr51551451311.jpg",
+    "glass": "Shot glass",
+    "instructions": "Add tequila and mango puree to a shot glass. Top with 7-up. Cover with hand, slam on table and drink immediately.",
+    "ingredients": [
+      { "name": "Tequila", "measure": "25 ml" },
+      { "name": "Mango Puree", "measure": "15 ml" },
+      { "name": "7-Up", "measure": "10 ml" }
+    ],
+  },
+  {
+    "id": "custom-56",
+    "name": "Mango Lassi",
+    "category": "mocktail",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/mango-lassi-recipe.jpg",
+    "glass": "Highball glass",
+    "instructions": "Blend all ingredients until smooth. Pour into a glass and sprinkle with a pinch of cardamom if desired.",
+    "ingredients": [
+      { "name": "Mango Puree", "measure": "100 ml" },
+      { "name": "Milk", "measure": "100 ml" },
+      { "name": "Honey", "measure": "1 tsp" },
+      { "name": "Sugar", "measure": "1 tsp" }
+    ],
+  },
+  {
+    "id": "custom-57",
+    "name": "Mango Lemonade",
+    "category": "mocktail",
+    "image": "https://www.jocooks.com/wp-content/uploads/2014/08/mango-lemonade-1-11.jpg",
+    "glass": "Highball glass",
+    "instructions": "Add mango puree, lemon juice and sugar syrup to a glass with ice. Top with soda water and stir gently. Garnish with a lemon slice.",
+    "ingredients": [
+      { "name": "Mango Puree", "measure": "60 ml" },
+      { "name": "Lemon Juice", "measure": "30 ml" },
+      { "name": "Sugar Syrup", "measure": "20 ml" },
+      { "name": "Soda Water", "measure": "100 ml" }
+    ],
+  },
+  {
+    "id": "custom-58",
+    "name": "Virgin Mango Sunrise",
+    "category": "mocktail",
+    "image": "https://mocktail.net/wp-content/uploads/2021/08/Summer-Sunrise-Mocktail_ig.jpg",
+    "glass": "Highball glass",
+    "instructions": "Fill glass with ice. Add mango puree and orange juice, stir gently. Slowly pour grenadine down the side of the glass. Do not stir.",
+    "ingredients": [
+      { "name": "Mango Puree", "measure": "60 ml" },
+      { "name": "Orange Juice", "measure": "120 ml" },
+      { "name": "Grenadine", "measure": "15 ml" }
+    ],
+  },
 ];
+
 
 export default function CocktailBar() {
   const [inventory, setInventory] = useState([
@@ -1755,6 +1602,7 @@ export default function CocktailBar() {
   const [isExiting, setIsExiting] = useState(false);
   const [visibleCards, setVisibleCards] = useState(new Set());
   const [justEnteredApp, setJustEnteredApp] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleEnter = () => {
     setIsExiting(true);
@@ -1795,7 +1643,7 @@ useEffect(() => {
         setCategoryFilter('all');
         setIsFading(false);
       }, 1500); // 1 second fade duration
-    }, 60000); // 1 minute inactivity
+    }, 300000); // 5 minutes inactivity
   };
   
   const events = ['click', 'touchstart', 'scroll', 'keydown'];
@@ -2592,7 +2440,10 @@ return (
                     key={cocktail.id}
                     data-id={cocktail.id}
                     className="cocktail-card"
-                    onClick={() => setSelectedCocktail(cocktail)}
+                    onClick={() => {
+                      setScrollPosition(window.scrollY);
+                      setSelectedCocktail(cocktail);
+                    }}
                     style={{
                       ...styles.cocktailCard,
                       opacity: visibleCards.has(cocktail.id) ? 1 : 0,
@@ -2647,7 +2498,10 @@ return (
         {selectedCocktail && (
           <div style={styles.recipeDetail}>
             <button
-              onClick={() => setSelectedCocktail(null)}
+              onClick={() => {
+                setSelectedCocktail(null);
+                setTimeout(() => window.scrollTo(0, scrollPosition), 0);
+              }}
               style={styles.backButton}
             >
               ← Back
