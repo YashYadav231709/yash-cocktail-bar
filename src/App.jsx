@@ -1027,7 +1027,7 @@ const MY_COCKTAILS = [
   },
   {
     "id": "custom-23",
-    "name": "Black Widow's Bite",
+    "name": "Blue Widow's Bite",
     "category": "cocktail",
     "image": "https://cdn.diffordsguide.com/cocktail/AqZwxr/default/0/512x.webp?v=1737701639",
     "glass": "Cocktail glass",
@@ -1036,7 +1036,6 @@ const MY_COCKTAILS = [
       { "name": "Vodka", "measure": "90 ml" },
       { "name": "Blue Curacao", "measure": "45 ml" },
       { "name": "Orange Juice", "measure": "60 ml" },
-      { "name": "Orange Bitters", "measure": "4 dashes" }
     ],
   },
   {
