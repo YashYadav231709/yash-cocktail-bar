@@ -2319,6 +2319,7 @@ return (
           padding: '2px',
         }}>
           <button
+            className="nav-button"
             onClick={() => { setView('cocktails'); setSelectedCocktail(null); }}
             style={{
               ...styles.navButton,
@@ -2337,6 +2338,7 @@ return (
           padding: '2px',
         }}>
           <button
+            className="nav-button"
             onClick={() => { setView('add-recipe'); setSelectedCocktail(null); }}
             style={{
               ...styles.navButton,
@@ -2353,6 +2355,7 @@ return (
           padding: '2px',
         }}>
           <button
+            className="nav-button"
             onClick={selectRandomCocktail}
             style={styles.navButton}
           >
@@ -2382,11 +2385,13 @@ return (
               </div>
             ) : (
               <>
-          <div style={{
+          <div 
+            className="search-container"
+            style={{
             ...styles.searchContainer,
             animation: justEnteredApp ? 'fadeInDown 0.8s ease-out 0.2s both' : 'none',
           }}>
-                                  <div style={{
+                                  <div className="search-wrapper" style={{
               width: '976px',
               background: 'linear-gradient(135deg, #b8860b, #ffd700, #b8860b)',
               borderRadius: '16px',
@@ -2419,6 +2424,7 @@ return (
               padding: '2px',
             }}>
               <select
+                className="category-select"
                 value={categoryFilter}
                 onChange={(e) => setCategoryFilter(e.target.value)}
                 style={{
@@ -2479,7 +2485,7 @@ return (
                     </p>
                   </div>
                 ) : (
-                  <div style={styles.cocktailGrid}>
+                  <div className="cocktail-grid" style={styles.cocktailGrid}>
                 {filteredCocktails.map((cocktail, index) => (
                   <div
                     key={cocktail.id}
@@ -2499,7 +2505,9 @@ return (
                     }}
                   >
                         {cocktail.image ? (
-                          <div style={{ 
+                          <div 
+                            className="cocktail-card-image"
+                            style={{ 
                             overflow: 'hidden', 
                             borderRadius: '14px 14px 0 0',
                             height: '220px',
@@ -2515,8 +2523,8 @@ return (
                             🍹
                           </div>
                         )}
-                        <div style={styles.cocktailInfo}>
-                          <h3 style={styles.cocktailName}>{cocktail.name}</h3>
+                        <div className="cocktail-card-info" style={styles.cocktailInfo}>
+                          <h3 className="cocktail-card-name" style={styles.cocktailName}>{cocktail.name}</h3>
                           <p style={styles.cocktailMeta}>
                           {cocktail.category && (
                             <span style={{
