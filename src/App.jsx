@@ -2226,6 +2226,52 @@ return (
           transform: scale(1.2);
           overflow: hidden;
         }
+        @media (max-width: 768px) {
+        .search-container {
+          flex-direction: column !important;
+          padding: 0 12px !important;
+        }
+        
+        .search-wrapper {
+          width: 100% !important;
+        }
+        
+        .search-input {
+          font-size: 16px !important;
+        }
+        
+        .category-select {
+          width: 100% !important;
+          min-width: unset !important;
+        }
+        
+        .cocktail-grid {
+          grid-template-columns: repeat(2, 1fr) !important;
+          gap: 12px !important;
+          padding: 12px !important;
+        }
+        
+        .cocktail-card-image {
+          height: 140px !important;
+        }
+        
+        .cocktail-card-info {
+          padding: 12px !important;
+        }
+        
+        .cocktail-card-name {
+          font-size: 1rem !important;
+        }
+        
+        .header-title {
+          font-size: 2rem !important;
+        }
+        
+        .nav-button {
+          padding: 10px 16px !important;
+          font-size: 0.85rem !important;
+        }
+      }
         
         .glitter {
           position: absolute;
@@ -2254,7 +2300,7 @@ return (
         ...styles.header,
         animation: justEnteredApp ? 'fadeInDown 0.8s ease-out' : 'none',
       }}>
-              <h1 style={styles.title}>Yash's Bar</h1>
+              <h1 className="header-title" style={styles.title}>Yash's Bar</h1>
         <p style={styles.subtitle}>
           {loading ? 'Loading recipes...' : `There are currently ${MY_COCKTAILS.length} drinks you can make`}
         </p>
